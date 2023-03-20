@@ -1,0 +1,3 @@
+[submodule "src/.vuepress/public/assets/lib/pdfjs"]
+	path = src/.vuepress/public/assets/lib/pdfjs
+	url = git@github.com:vuepress-theme-hope/pdfjs.git
