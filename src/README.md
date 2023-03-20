@@ -16,7 +16,7 @@ actions:
   - text: Конфиг 🛠
     link: /config/
 
-  - text: Онлайн-демонстрация 🪀
+  - text: демо 🪀
     link: https://stackblitz.com/fork/vuepress-theme-hope
 
 features:
