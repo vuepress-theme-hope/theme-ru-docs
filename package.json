@@ -15,7 +15,7 @@
   "dependencies": {
     "@types/katex": "0.16.0",
     "@types/three": "0.149.0",
-    "@vuepress/client": "2.0.0-beta.61",
+    "@vuepress/client": "2.0.0-beta.50-pre.1",
     "@vuepress/shared": "2.0.0-beta.61",
     "@vuepress/utils": "2.0.0-beta.61",
     "@vueuse/core": "9.13.0",
