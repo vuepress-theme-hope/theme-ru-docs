@@ -11,8 +11,8 @@ dependencies:
     specifier: 2.0.0-beta.62
     version: 2.0.0-beta.62
   '@vuepress/shared':
-    specifier: 2.0.0-beta.62
-    version: 2.0.0-beta.62
+    specifier: 2.0.0-beta.50-pre.1
+    version: 2.0.0-beta.50-pre.1
   '@vuepress/utils':
     specifier: 2.0.0-beta.62
     version: 2.0.0-beta.62
@@ -2234,6 +2234,12 @@ packages:
       vue: 3.3.2
     transitivePeerDependencies:
       - supports-color
+    dev: false
+
+  /@vuepress/shared@2.0.0-beta.50-pre.1:
+    resolution: {integrity: sha512-Gk6ikIV2V8LMokc+H/juH+kBOigo38Woup42Q2pmmWqmlwdLqbUcCYZSt/z+opeOUAqC9s3CZnKR8xCw+qo8BQ==}
+    dependencies:
+      '@vue/shared': 3.3.2
     dev: false
 
   /@vuepress/shared@2.0.0-beta.62:
