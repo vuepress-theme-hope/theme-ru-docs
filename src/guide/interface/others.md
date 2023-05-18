@@ -14,13 +14,13 @@ tag:
 
 Для получения подробной информации смотрите [Конфиг → Настройка стиля](../../config/style.md)
 
-## Print Button
+## Кнопка печати
 
-Try it: <PrintButton />
+Попробуйте это: <PrintButton />
 
-The theme fully optimize style for print, and there will be a print button at toc in desktop mode by default.
+Тема полностью оптимизирует стиль для печати, и по умолчанию в режиме рабочего стола будет кнопка печати.
 
-To hide print button, you should set `print: false` in theme options.
+Чтобы скрыть кнопку печати, вы должны установить `print: false` в настройках темы.
 
 ## Полноэкранная кнопка
 
@@ -72,11 +72,11 @@ export default defineUserConfig({
 
 Вы можете установить `backToTop: false` в параметрах темы, чтобы отключить его, или установить его на число, чтобы изменить расстояние срабатывания по умолчанию.
 
-## RTL Layout
+## Макет RTL
 
-`vuepress-theme-hope` fully supports RTL layout. Just set `rtl: true` in rtl locales.
+`vuepress-theme-hope` полностью поддерживает макет RTL. Просто установите `rtl: true` в локалях rtl.
 
-Try it: <ToggleRTLButton />
+Попробуйте это: <ToggleRTLButton />
 
 <script setup lang="ts">
 import PrintButton from "@theme-hope/modules/info/components/PrintButton";

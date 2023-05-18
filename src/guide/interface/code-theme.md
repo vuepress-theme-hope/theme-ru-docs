@@ -9,11 +9,11 @@ tag:
   - Темы кода
 ---
 
-## With Prism.js Highlighter
+## С подсветкой Prism.js
 
-`vuepress-theme-hope` bundles `@vuepress/plugin-prismjs` to support code highlighting by default, and we allow you to set code block themes for lightmode and darkmode globally.
+`vuepress-theme-hope` объединяет `@vuepress/plugin-prismjs` для поддержки подсветки кода по умолчанию, и мы позволяем вам глобально устанавливать темы блоков кода для светлого и темного режима.
 
-By default, we use `one-light` and `one-dark` for lightmode and darkmode respectively, and you can change them by setting `light` and `dark` in `plugin.prismjs`.
+По умолчанию мы используем `one-light` и `one-dark` для светлого и темного режимов соответственно, и вы можете изменить их, установив `light` и `dark` в `plugin.prismjs`.
 
 ::: tip
 
@@ -68,13 +68,13 @@ By default, we use `one-light` and `one-dark` for lightmode and darkmode respect
 
 :::
 
-## With Shiki Highlighter
+## С подсветкой Shiki
 
-Prism.js is fast and lightweight, but it can not highlight all syntax correctly. If you want a more accurate highlight result, you can use `@vuepress/plugin-shiki`.
+Prism.js быстрый и легкий, но он не может правильно выделить весь синтаксис. Если вам нужен более точный результат подсветки, вы можете использовать `@vuepress/plugin-shiki`.
 
-1. Disable `@vuepress/plugin-prismjs` plugin by setting `plugins.prismjs: false` in theme options.
+1. Отключите плагин `@vuepress/plugin-prismjs` установив `plugins.prismjs: false` в опциях темы.
 
-1. Install the plugin:
+1. Установить плагин:
 
    ::: code-tabs#shell
 
@@ -98,7 +98,7 @@ Prism.js is fast and lightweight, but it can not highlight all syntax correctly.
 
    :::
 
-1. Import shiki plugin and use it:
+1. Импортируйте плагин shiki и используйте его:
 
    ::: code-tabs#language
 
@@ -137,7 +137,7 @@ Prism.js is fast and lightweight, but it can not highlight all syntax correctly.
 
    :::
 
-1. Set background color and font color for code blocks according to theme you want to use by adding these variables in `.vuepress/styles/config.scss`:.
+1. Установите цвет фона и цвет шрифта для блоков кода в соответствии с темой, которую вы хотите использовать, добавив эти переменные в `.vuepress/styles/config.scss`:.
 
-   - `$code-bg-color`: background color for code blocks
-   - `$code-color`: font color for code blocks
+   - `$code-bg-color`: цвет фона для блоков кода
+   - `$code-color`: цвет шрифта для блоков кода

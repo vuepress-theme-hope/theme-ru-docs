@@ -1,47 +1,47 @@
 ---
-title: Responsive Layout
+title: Адаптивный макет
 icon: grip
 order: 5
 category:
   - Интерфейс
 tag:
   - Интерфейс
-  - Responsive layout
+  - Адаптивный макет
 ---
 
-The whole theme is responsive, which means it works well on different screen sizes.
+Вся тема адаптивна, что означает, что она хорошо работает на разных размерах экрана.
 
 <!-- more -->
 
-## Introduction to Responsive Layout
+## Введение в адаптивный макет
 
-On mobile devices:
+На мобильных устройствах:
 
-- In navbar, site name will be hidden, and elements such as navbar links, theme switch, and full-screen button will be collapsed into additional pop-up window, and toggled through the button on the right side of navbar;
-- The sidebar will be displayed in the form of a side menu and hidden by default, and the sidebar toggle button is displayed on the left side of navbar to control the pop-up and retraction of the sidebar;
-- Path navigation, body text, back to top button text has smaller font size
-- The title of the current page is collapsed into the sidebar
+- На панели навигации имя сайта будет скрыто, а такие элементы, как ссылки панели навигации, переключатель тем и полноэкранная кнопка, будут свернуты в дополнительное всплывающее окно и переключаться с помощью кнопки в правой части панели навигации;
+- Боковая панель будет отображаться в виде бокового меню и скрыта по умолчанию, а кнопка переключения боковой панели отображается в левой части панели навигации для управления всплывающим окном и убиранием боковой панели;
+- Навигация по пути, основной текст, текст кнопки «Вверх» имеют меньший размер шрифта.
+- Заголовок текущей страницы свернут в боковую панель
 
-On tablet/laptop devices:
+На планшетах/ноутбуках:
 
-- Navbar links will appear in the navbar
-- The sidebar will be displayed as a collapsible menu
-- The title of the current page is collapsed into the sidebar
+- Ссылки на панели навигации появятся в панели навигации
+- Боковая панель будет отображаться как сворачиваемое меню
+- Заголовок текущей страницы свернут в боковую панель
 
-On pc device:
+На устройстве ПК:
 
-- Navbar links will appear in the navbar
-- The sidebar will stick to the left side of the content on the page
-- The title of the current page will be displayed on the right side of the page
+- Ссылки на панели навигации появятся в панели навигации
+- Боковая панель будет прикрепляться к левой части контента на странице
+- Название текущей страницы будет отображаться в правой части страницы
 
-## Responsive configuration
+## Отзывчивая конфигурация
 
-Themes provide breakpoint variables for controlling responsive layout behavior. You can modify them in `.vuepress/styles/config.scss`:
+Темы предоставляют переменные контрольные точки для управления адаптивным поведением макета. Вы можете изменить их в `.vuepress/styles/config.scss`:
 
-- `$pc`: PC responsive layout breakpoint, default is `1440px`
-- `$laptop`: notebook responsive layout breakpoint, default is `1280px`
-- `$pad`: Large pad responsive layout breakpoint, defaults to `959px`
-- `$tablet`: Tablet responsive layout breakpoint, default is `768px`
-- `$mobile`: Mobile responsive layout breakpoint, default is `480px`
+- `$pc`: Контрольная точка макета для ПК, по умолчанию `1440px`
+- `$laptop`: Контрольная точка адаптивного макета ноутбука, по умолчанию `1280px`
+- `$pad`: Контрольная точка макета, реагирующего на большую панель, по умолчанию `959px`
+- `$tablet`: Контрольная точка адаптивного макета планшета, по умолчанию `768px`
+- `$mobile`: Контрольная точка адаптивного макета для мобильных устройств, по умолчанию `480px`
 
-In particular, `$tablet` and `$pc` will only be based on the pixel size, if you modify it, you need to also set [`mobileBreakPoint`](../../config/theme/appearance.md#mobilebreakpoint) and [`pcBreakPoint`](../../config/theme/appearance.md#mobilebreakpoint) options with the modified pixel size.
+В частности, `$tablet` и `$pc` будут основываться только на размере пикселя, если вы его измените, вам также необходимо установить [`mobileBreakPoint`](../../config/theme/appearance.md#mobilebreakpoint) и [`pcBreakPoint`](../../config/theme/appearance.md#mobilebreakpoint) с измененным размером пикселя.
