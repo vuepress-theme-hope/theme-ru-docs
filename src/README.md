@@ -10,13 +10,13 @@ actions:
     link: /cookbook/tutorial/
     type: primary
 
-  - text: вступление 💡
+  - text: Вступление 💡
     link: /guide/get-started/intro.html
 
   - text: Конфиг 🛠
     link: /config/
 
-  - text: демо 🪀
+  - text: Демо 🪀
     link: https://stackblitz.com/fork/vuepress-theme-hope
 
 features:
@@ -70,9 +70,9 @@ features:
     details: Шифруйте свои статьи на основе ссылок на страницы, чтобы их мог видеть только тот, кому вы хотите
     link: /guide/feature/encrypt.html
 
-  - title: Search
+  - title: Поиск
     icon: search
-    details: Support docsearch and client search
+    details: Поддержка docsearch и клиентского поиска
     link: /guide/feature/search.html
 
   - title: Кнопка копирования
@@ -140,7 +140,7 @@ npm init vuepress-theme-hope [dir]
 
 :::
 
-To add vuepress-theme-hope as docs builder to an existing project, run the following command in the project root directory:
+Чтобы добавить vuepress-theme-hope в качестве конструктора документов в существующий проект, выполните следующую команду в корневом каталоге проекта:
 
 ::: code-tabs#shell
 

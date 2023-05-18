@@ -13,7 +13,7 @@
 
 ## [Онлайн демо](https://stackblitz.com/fork/vuepress-theme-hope)
 
-## Special Sponsor
+## Специальный спонсор
 
 [![Grey Software](https://vuepress-theme-hope.github.io/grey-software.svg)](https://grey.software/)
 
