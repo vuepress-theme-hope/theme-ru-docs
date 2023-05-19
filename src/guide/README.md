@@ -75,7 +75,7 @@ tag:
 
 - [Боковая панель](layout/sidebar.md)
 
-- [Цвета темы](interface/tof main filesheme-color.md): позволяет динамически переключаться во время просмотра
+- [Цвета темы](interface/theme-color.md): позволяет динамически переключаться во время просмотра
 
 - [Темный режим](interface/darkmode.md): позволяет переключаться вручную или применять автоматически в соответствии с настройками устройства
 
@@ -130,7 +130,7 @@ tag:
 
 Тема включает в себя следующие плагины, вы можете использовать их в других темах или напрямую.
 
-- <ProjectLink name="auto-catalog">vuepress-plugin-auto-catalog</ProjectLink>: Catalog automatically generation for VuePress2
+- <ProjectLink name="auto-catalog">vuepress-plugin-auto-catalog</ProjectLink>: Автоматическое создание каталога для VuePress2
 
 - <ProjectLink name="blog2">vuepress-plugin-blog2</ProjectLink>: Плагин блога для VuePress2
 
@@ -166,8 +166,8 @@ tag:
 
 - <ProjectLink name="redirect">vuepress-plugin-redirect</ProjectLink>: Редирект страниц
 
-- <ProjectLink name="remove-pwa">vuepress-plugin-remove-pwa</ProjectLink>: Plugins to remove pwa
+- <ProjectLink name="remove-pwa">vuepress-plugin-remove-pwa</ProjectLink>: Плагины для удаления pwa
 
-- <ProjectLink name="search-pro">vuepress-plugin-search-pro</ProjectLink>: Client search plugin
+- <ProjectLink name="search-pro">vuepress-plugin-search-pro</ProjectLink>: Клиентский плагин поиска
 
 :::

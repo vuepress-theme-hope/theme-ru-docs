@@ -27,7 +27,7 @@ $theme-color: #f00;
 
 Первый цвет — это цвет темы по умолчанию выше.
 
-:::: details Example
+:::: details Пример
 
 ::: code-tabs#language
 
@@ -79,14 +79,12 @@ export default defineUserConfig({
 
 <script setup lang="ts">
 import { computed } from "vue";
-import { useThemeData } from "@theme-hope/composables/index";
+import { entries, fromEntries } from 'vuepress-shared/client';
+import cssVariables from "vuepress-theme-hope/styles/variables.module.scss?module";
+
 import ThemeColorPicker from "@theme-hope/modules/outlook/components/ThemeColorPicker";
 
-const themeData = useThemeData();
-
-const themeColor = computed(() => {
-  const { themeColor } = themeData.value;
-
-  return themeColor === false ? null : themeColor;
-});
+const themeColor = fromEntries(
+  entries(cssVariables).filter(([key]) => key.startsWith("theme-"))
+)
 </script>

@@ -13,23 +13,23 @@ head:
       href: //at.alicdn.com/t/c/font_2410206_5vb9zlyghj.css
 ---
 
-The entire theme adds FontClass / Image format icon support in multiple places.
+Вся тема добавляет поддержку иконок формата FontClass / Image в нескольких местах.
 
-You can use iconfont, iconify and fontawesome to add icons to your project, and you can also use your own icon assets.
+Вы можете использовать iconfont, iconify и fontawesome для добавления иконок в свой проект, а также использовать свои собственные ресурсы иконок.
 
-Also, png/svg format icon is supported. You can use full links or pathname to add icons.
+Также поддерживается иконка формата png/svg. Вы можете использовать полные ссылки или пути для добавления иконок.
 
-We recommend you to use iconify or fontawesome.
+Мы рекомендуем вам использовать iconify или fontawesome.
 
 <!-- more -->
 
-## Browsing Icons
+## Обзор иконок
 
 - Iconify: <https://icon-sets.iconify.design/>
 - Iconfont: <https://www.iconfont.cn/?lang=en-us>
 - Fontawesome: <https://fontawesome.com/icons>
 
-::: details Featured Icons with iconfont keyword
+::: details Избранные иконки iconfont
 
 <IconDisplay link="//at.alicdn.com/t/c/font_2410206_5vb9zlyghj.css" />
 
@@ -49,17 +49,17 @@ We recommend you to use iconify or fontawesome.
 
 - HomePage: установите опцию `icon` в элементе функции
 
-## Global Settings
+## Глобальные настройки
 
-You can set icon assets url and icon prefix globally via `iconAssets` and `iconPrefix`.
+Вы можете задать URL-адрес ресурсов иконок и префикс иконок глобально через `iconAssets` и `iconPrefix`.
 
-### Setting Icon Assets
+### Настройка ресурсов иконок
 
-You should set icon related assets to `iconAssets`, where you can set:
+Вы должны задать ресурсы, связанные с иконками, в `iconAssets`, где вы можете установить:
 
-- icon assets keywords
-- icon resource in format of css and js
-- array of above
+- ключевые слова ресурсов иконок
+- ресурс иконки в формате css и js
+- массив выше
 
 ::: code-tabs#language
 
@@ -115,44 +115,44 @@ export default defineUserConfig({
 
 :::
 
-For example, you may use [iconfont.cn](https://www.iconfont.cn/?lang=en-us) and [fontawesome](https://fontawesome.com) to generate your own assets.
+Например, вы можете использовать [iconfont.cn](https://www.iconfont.cn/?lang=en-us) и [fontawesome](https://fontawesome.com) для создания собственных ресурсов.
 
-To keep it simple, we add built-in keywords `"iconfont"`, `"iconify"`, `"fontawesome"` and `"fontawesome-with-brand` support for you to get started easily.
+Для простоты мы добавили встроенные ключевые слова `"iconfont"`, `"iconify"`, `"fontawesome"` и `"fontawesome-with-brand`, чтобы вы могли легко начать работу.
 
 ::: danger
 
-If you use this plugin for commercial project documentation, `iconfont` is **not recommended** as iconfont itself is a study/share platform for designers and developers.
+Если вы используете этот плагин для документации коммерческого проекта, `iconfont` **не рекомендуется**, поскольку сам по себе iconfont является платформой для изучения/обмена дизайнерами и разработчиками.
 
-Every icon is uploaded by users and you must get authorized from the author for commercial usage. Also there could be chance where the uploader obeys usage term. and upload icons where its copyright is at 3rd party.
+Каждая иконка загружается пользователями, и вы должны получить разрешение от автора для коммерческого использования. Также может быть случай, когда загрузчик соблюдает условия использования. и загружать иконки, авторские права на которые принадлежат третьей стороне.
 
 :::
 
-### Setting Icon Prefix
+### Настройка префикса иконки
 
-`iconPrefix` is the icon prefix where you want to set,
+`iconPrefix` — это префикс иконки, который вы хотите установить.
 
-Normally, there should be a common prefix for your icon class, for `iconfont` icon classes are `iconfont icon-<ICON-NAME>` and for fontawesome free icon classes are `fas fa-<icon-name>`. So when you are setting the above `assets` option with keywords or a single link generated from iconfont website, fontawesome kit or fontawesome CDN, the plugin recognize those and set prefix as `"iconfont icon-"` and `"fas fa-"` automatically for you.
+Обычно у вашего класса иконок должен быть общий префикс, для классов иконок `iconfont` это `iconfont icon-<ICON-NAME>`, а для бесплатных классов иконок fontawesome `fas fa-<icon-name>`. Поэтому, когда вы устанавливаете вышеуказанную опцию `assets` с ключевыми словами или одной ссылкой, сгенерированной с веб-сайта iconfont, набора шрифтов fontawesome или fontawesome CDN, плагин распознает их и устанавливает префикс как `"iconfont icon-"` и `"fas fa-"` автоматически для вас.
 
-In other cases where you use iconify or your own url, you can manually set this options yourself. After all writing `icon: apple` is always better then something like `icon: iconfont icon-apple`, `icon: mdi:icon-apple` or `icon: fa-solid fa-apple`.
+В других случаях, когда вы используете iconify или свой собственный URL-адрес, вы можете вручную установить эти параметры самостоятельно. В конце концов, писать `icon: apple` всегда лучше, чем что-то вроде `icon: iconfont icon-apple`, `icon: mdi:icon-apple` или `icon: fa-solid fa-apple`.
 
-## Advanced
+## Продвинутый
 
-### Using Fontawesome Kits
+### Использование наборов Fontawesome
 
-You can purchase at [fontawesome.com](https://fontawesome.com) to use kits or import brand icons.
+Вы можете приобрести их на [fontawesome.com](https://fontawesome.com) , чтобы использовать комплекты или импортировать иконки брендов.
 
-Fontawesome kits with pro features support pro icons, more icon styles and uploading your own icons.
+Наборы Fontawesome с профессиональными функциями поддерживают профессиональные иконки, больше стилей иконок и загрузку ваших собственных иконок.
 
 ::: note
 
-For details, please follow [fontawesome document](https://fontawesome.com/).
+Для получения дополнительной информации, пожалуйста, следуйте [документации fontawesome](https://fontawesome.com/).
 
-- [Usage Instructions](https://fontawesome.com/docs/web/add-icons/how-to)
-- [Icon List](https://fontawesome.com/icons)
+- [Инструкции по использованию](https://fontawesome.com/docs/web/add-icons/how-to)
+- [Список иконок](https://fontawesome.com/icons)
 
 :::
 
-### Generate your own iconfont assets
+### Создавайте свои собственные ресурсы иконок
 
 [Iconfont](https://www.iconfont.cn/?lang=en-us) — это платформа для управления векторными иконками и коммуникации, созданная Alimama MUX.
 
@@ -176,7 +176,7 @@ For details, please follow [fontawesome document](https://fontawesome.com/).
 
    ![Добавить в библиотеку](./assets/iconfont-add.png)
 
-1. После поиска всех значков щелкните иконку "Add to Library" в правом верхнем углу, нажмите "Add to Project" ниже и выберите созданный проект, затем подтвердите.
+1. После поиска всех иконок щелкните иконку "Add to Library" в правом верхнем углу, нажмите "Add to Project" ниже и выберите созданный проект, затем подтвердите.
 
 #### Редактирование иконки
 
@@ -192,7 +192,7 @@ For details, please follow [fontawesome document](https://fontawesome.com/).
 
 1. Установите ссылку css на `iconAssets` в настройках темы.
 
-#### Tips
+#### Советы
 
 ::: tip
 
@@ -200,13 +200,13 @@ For details, please follow [fontawesome document](https://fontawesome.com/).
 
 :::
 
-::: warning Conflicts with private character
+::: warning Противоречия с частным характером
 
-Font Icon associate each icon with a character in unicode private character scope, the character used by iconfont is randomly.
+Иконка шрифта связывает каждую иконку с символом в области частных символов Unicode, символ, используемый iconfont, является случайным.
 
-Iconfont will try to solve conflicts by assigning a new character if a new icon's default character is already used in current project, however different projects may have conflicts.
+Iconfont попытается решить конфликты, назначив новый символ, если символ новой иконки по умолчанию уже используется в текущем проекте, однако в разных проектах могут возникать конфликты.
 
-So we do not recommend you to use multiple iconfont links as assets, if you ready want to do so, check the icons to ensure every former project icon is not covered by those in latter ones.
+Поэтому мы не рекомендуем вам использовать несколько ссылок на иконочные шрифты в качестве активов. Если вы готовы это сделать, проверьте иконки, чтобы убедиться, что каждую иконку предыдущего проекта не перекрывается иконкой в более поздних.
 
 :::
 
