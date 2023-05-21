@@ -33,23 +33,23 @@ tag:
 
 ## Выдержка
 
-### Adding Excerpt
+### Добавление выдержки
 
-If you want to add an excerpt for an article, you can mark contents with `<!-- more -->` comment. Any content before this comment will be considered as an excerpt.
+Если вы хотите добавить отрывок к статье, вы можете пометить содержимое комментарием `<!-- more -->`. Любой контент до этого комментария будет считаться выдержкой.
 
-Meanwhile, if the excerpt you want to set is not what you want to show at the beginning of the article, you can also set the HTML string through the `excerpt` option in Frontmatter.
+Между тем, если отрывок, который вы хотите установить, не соответствует тому, что вы хотите показать в начале статьи, вы также можете установить строку HTML с помощью параметра `excerpt` во Frontmatter.
 
-### Automatically Generate Excerpt
+### Автоматически генерировать выдержку
 
-By default, the theme extract article excerpts for you automatically,.
+По умолчанию тема автоматически извлекает для вас выдержки из статьи.
 
-If you want the theme only display excerpt which you specify, set `plugins.blog.excerptLength: 0` in theme options.
+Если вы хотите, чтобы тема отображала только указанный вами отрывок, установите `plugins.blog.excerptLength: 0` в параметрах темы.
 
-::: warning Excerpt Limitation
+::: warning Ограничение выдержки
 
-We recommend you to use `<!-- more -->` to mark excerpt as first choice. If you do need a special excerpt, set it in frontmatter yourself.
+Мы рекомендуем вам использовать `<!-- more -->`, чтобы отметить отрывок как первый выбор. Если вам нужна особая выдержка, установите ее во вступительном слове самостоятельно.
 
-In addition, excerpt is directly inserted into the DOM through `innerHTML`, this means that no Vue features are available.
+Кроме того, отрывок напрямую вставляется в DOM через `innerHTML`, это означает, что никакие функции Vue недоступны.
 
 :::
 
@@ -71,39 +71,39 @@ In addition, excerpt is directly inserted into the DOM through `innerHTML`, this
 
 :::
 
-## Other types of articles <Badge text="Advanced" type="info" />
+## Другие типы статей <Badge text="Продвинутый" type="info" />
 
-The theme provides separate lists for additional article type.
+Тема предоставляет отдельные списки для дополнительных типов статей.
 
-To add additional article type, you should set `plugins.blog.type` in theme options with an array of objects describing type you want.
+Чтобы добавить дополнительный тип статьи, вы должны установить `plugins.blog.type` в настройках темы с массивом объектов, описывающих нужный вам тип.
 
-Each type should have a unique key (without special characters), and a `filter` function to determine whether a page should be the type. The `filter` function should accept page object and return a boolean value.
+Каждый тип должен иметь уникальный ключ (без специальных символов) и функцию `filter`, чтобы определить, должна ли страница соответствовать типу. Функция `filter` должна принимать объект страницы и возвращать логическое значение.
 
-To sort pages in the type list, you can also set a `sorter` function. The `sorter` function should accept two page objects and return a number.
+Для сортировки страниц в списке типов вы также можете установить функцию `sorter`. Функция `sorter` должна принимать два объекта страницы и возвращать число.
 
-By default, the type list path will be `/key/` (with `key` replaced by your actual key). You can also set a custom path by setting `path` in options.
+По умолчанию путь к списку типов будет `/key/` (с заменой `key` вашим фактическим ключом). Вы также можете установить собственный путь, установив `path` в параметрах.
 
-`frontmatter` option controls the frontmatter of the layout page, with is a function accepting `localePath` and returning a frontmatter object. This option is useful when setting the title of the layout page.
+Опция `frontmatter` управляет лицевой стороной страницы макета, а функция принимает `localePath` и возвращает объект внешней оболочки. Этот параметр полезен при установке заголовка страницы макета.
 
 ::: note
 
-`layout` is the layout name, by default it will be `BlogType`, a layout `vuepress-theme-hope` registered. ONLY IF you build a custom layout for the type list, shall you set this option to your layout value.
+`layout` — это имя макета, по умолчанию это будет `BlogType`, зарегистрированный макет `vuepress-theme-hope`. ТОЛЬКО ЕСЛИ вы создаете собственный макет для списка типов, вы должны установить для этой опции значение вашего макета.
 
 :::
 
-Also you need to set `blogLocales[key]` in theme locales with the actual type name, so that the theme can display the type name correctly.
+Также вам необходимо установить `blogLocales[key]` в локалях темы с фактическим именем типа, чтобы тема могла правильно отображать имя типа.
 
-To get start with, we would like to show you some examples.
+Для начала мы хотели бы показать вам несколько примеров.
 
-::: details Examples
+::: details Примеры
 
-1. Adding a type of slide pages.
+1. Добавление типа страниц слайдов.
 
-   All slide pages should have `layout: Slide` in frontmatter. And the sequence doesn't matter.
+   Все страницы со слайдами должны иметь `layout: Slide` во frontmatter. И последовательность не имеет значения.
 
-1. Adding a original type.
+1. Добавление исходного типа.
 
-You shall set the following options:
+Вы должны установить следующие параметры:
 
 ```ts
 import { defineUserConfig } from "vuepress";

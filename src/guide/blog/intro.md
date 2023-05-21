@@ -43,14 +43,14 @@ tag:
 
 Количество статей на странице по умолчанию равно `10`, вы можете установить `blog.articlePerPage` в параметрах темы, чтобы переопределить это значение.
 
-## Limitation
+## Ограничение
 
-::: warning Hot update disabled by default
+::: warning Горячее обновление отключено по умолчанию
 
-For performance reasons, hot updates are not enabled for blog-related data by default in devServer, i.e. if you add new articles or modify the categories, time, tags, sticky, star, etc. of existing articles, the related data of the entire site will not update until you restart devServer.
+Из соображений производительности горячие обновления не включены для данных, связанных с блогами, по умолчанию в devServer, т. е. если вы добавляете новые статьи или изменяете категории, время, теги, прикрепляемые, звездочки и т. д. существующих статей, связанные данные всего сайта не будет обновляться, пока вы не перезапустите сервер разработки.
 
-In addition, since the blog information will be written to the underlying data of VuePress, modifying this file will cause application restart, so reading time (including word count information) which are sensitive to Markdown content will not take effect in devServer.
+Кроме того, поскольку информация блога будет записана в базовые данные VuePress, изменение этого файла приведет к перезапуску приложения, поэтому время чтения (включая информацию о количестве слов), которое чувствительно к содержимому Markdown, не будет действовать в devServer.
 
-If you want these to take effect or be updated in real time, you need to set `hotReload: true` and accept the fact that each modification will trigger a page refresh and some time having white screen due to heavy recomputing work.
+Если вы хотите, чтобы они вступили в силу или обновлялись в режиме реального времени, вам нужно установить `hotReload: true` и принять тот факт, что каждое изменение будет вызывать обновление страницы и некоторое время с белым экраном из-за интенсивной работы по пересчету.
 
 :::
