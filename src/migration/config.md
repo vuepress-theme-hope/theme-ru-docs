@@ -327,7 +327,7 @@ tag:
     - `@include(filename{start-})`
     - `@include(filename{-end})`
 
-    Also you can include file region:
+    Также вы можете указать область файла:
 
     - `@include(filename#region)`
 

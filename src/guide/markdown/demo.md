@@ -212,7 +212,7 @@ export default class App extends React.Component {
 
 ## Демо
 
-::: normal-demo Demo
+::: normal-demo Демо
 
 ```html
 <h1>VuePress Theme Hope</h1>

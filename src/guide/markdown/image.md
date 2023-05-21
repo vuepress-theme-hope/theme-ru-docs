@@ -139,9 +139,9 @@ interface ImageMarkOptions {
 
 ## Figure
 
-Sometimes, you may want to add a description with image and place it between contents, in this case you should set `figure: true` in plugin options.
+Иногда вы можете захотеть добавить описание с изображением и поместить его между содержимым, в этом случае вы должны установить `figure: true` в настройках плагина.
 
-If the image is standalone in a line, wrapped or not wrapped by link, it will be displayed as `<figure>` and title (or alt) will be displayed as `<figcaption>`.
+Если изображение находится отдельно в строке, заключено или не заключено в ссылку, оно будет отображаться как `<figure>`, а заголовок (или альтернативный вариант) будет отображаться как `<figcaption>`.
 
 ```md
 ![VuePress Hope Logo](/favicon.ico)
@@ -155,7 +155,7 @@ If the image is standalone in a line, wrapped or not wrapped by link, it will be
 ![VuePress Hope Logo](/logo.svg "VuePress Hope Logo" =300x300)
 ```
 
-Will be rendered as:
+Будет отображаться как:
 
 ![VuePress Hope Logo](/favicon.ico)
 

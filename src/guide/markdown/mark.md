@@ -59,8 +59,8 @@ export default {
 
 ## Демо
 
-VuePress Theme Hope is ==powerful==.
+VuePress Theme Hope ==мощная==.
 
 ```md
-VuePress Theme Hope is ==powerful==.
+VuePress Theme Hope ==мощная==.
 ```
