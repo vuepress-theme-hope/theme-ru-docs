@@ -15,7 +15,7 @@ tag:
 
 ## Ссылки на боковой панели
 
-You should use `sidebar` in theme options to control sidebar.
+Вы должны использовать `sidebar` в настройках темы для управления боковой панелью.
 
 ### Строковый формат
 

@@ -1,29 +1,29 @@
 ---
-title: Catalog Page
+title: Страница каталога
 icon: network-wired
 order: 6
 category:
-  - Layout
+  - Макет
 tag:
-  - Catalog
-  - Layout
+  - Каталог
+  - Макет
 ---
 
-VuePress Theme Hope automatically generate `README.md` with catalog for each folder by default using <ProjectLink name="auto-catalog">`vuepress-plugin-catalog`</ProjectLink>.
+VuePress Theme Hope автоматически создает `README.md` с каталогом для каждой папки по умолчанию, используя <ProjectLink name="auto-catalog">`vuepress-plugin-catalog`</ProjectLink>.
 
 <!-- more -->
 
-## Introduction
+## Введение
 
-You can use `plugin.autoCatalog` in theme options to control this feature. If you want to disable it, set `plugin.autoCatalog` to `false`.
+Вы можете использовать `plugin.autoCatalog` в настройках темы для управления этой функцией. Если вы хотите отключить его, установите для `plugin.autoCatalog` значение `false`.
 
-You can use `plugin.autoCatalog.exclude` to exclude some folders from catalog generation, and you can use `plugin.autoCatalog.frontmatter` to control frontmatter generation.
+Вы можете использовать `plugin.autoCatalog.exclude`, чтобы исключить некоторые папки из генерации каталога, и вы можете использовать `plugin.autoCatalog.frontmatter`, чтобы контролировать генерацию главной страницы
 
-For more details, see <ProjectLink name="auto-catalog">Auto Catalog Plugin Docs</ProjectLink>.
+Дополнительные сведения смотрите в <ProjectLink name="auto-catalog">Документации по плагину автоматического каталога</ProjectLink>.
 
-## Demo
+## Демо
 
-Home page catalog:
+Каталог главной страницы:
 
 <!-- markdownlint-disable MD033 -->
 

@@ -360,9 +360,9 @@ navbar: false
 ---
 ```
 
-## Disable Navbar Icon
+## Отключить иконку панели навигации
 
-To disable the navbar icon, set `navbarIcon: false` in theme options:
+Чтобы отключить иконку панели навигации, установите  `navbarIcon: false` в параметрах темы:
 
 ::: code-tabs#language
 
