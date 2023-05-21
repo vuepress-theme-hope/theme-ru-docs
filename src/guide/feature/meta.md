@@ -28,12 +28,12 @@ tag:
 
 :::
 
-::: warning Limitations
+::: warning Ограничения
 
-1. Since the contributors, last update time, and file creation time information are based on `git`, you can only enable it in a `git` based project.
-1. Since related information are from git commits, they will only be displayed after the first commit for a given page, and will only be updated when some commits change that page.
+1. Поскольку информация об участниках, времени последнего обновления и времени создания файла основана на `git`, вы можете включить ее только в проекте на основе `git`.
+1. Поскольку соответствующая информация получена из коммитов git, они будут отображаться только после первого коммита для данной страницы и будут обновляться только тогда, когда некоторые коммиты изменят эту страницу.
 
-1. Since the `git` plugin needs to call Git binary and involves file IO, this function will seriously affect the startup and hot update speed, so by default **theme will not be enabled in devServer**. Set `plugins.git: true` or `hotReload: true` in theme options if needed.
+1. Поскольку плагин `git` должен вызывать двоичный файл Git и использовать файловый ввод-вывод, эта функция серьезно повлияет на скорость запуска и горячего обновления, поэтому по умолчанию **тема не будет включена в devServer**. При необходимости установите `plugins.git: true` или `hotReload: true` в параметрах темы.
 
 :::
 
