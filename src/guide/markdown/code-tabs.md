@@ -110,7 +110,7 @@ npm i -D vuepress-plugin-md-enhance@next
 
 :::
 
-:::: details Code
+:::: details Код
 
 ````md
 Install VuePress Theme Hope:

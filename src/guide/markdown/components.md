@@ -94,7 +94,7 @@ export default {
 
 ## ArtPlayer
 
-A video player:
+Видеоплеер:
 
 <ArtPlayer src="https://mse-demo.u2sb.com/caminandes_03_llamigos_720p.mp4" />
 
@@ -102,7 +102,7 @@ A video player:
 <ArtPlayer src="https://mse-demo.u2sb.com/caminandes_03_llamigos_720p.mp4" />
 ```
 
-A video player with poster:
+Видеоплеер с постером:
 
 <ArtPlayer
   src="https://mse-demo.u2sb.com/caminandes_03_llamigos_720p.mp4"
@@ -116,7 +116,7 @@ A video player with poster:
 />
 ```
 
-A video player with custom settings:
+Видеоплеер с пользовательскими настройками:
 
 <ArtPlayer
   src="https://mse-demo.u2sb.com/caminandes_03_llamigos_720p.mp4"
@@ -160,11 +160,11 @@ A video player with custom settings:
 />
 ```
 
-See <ProjectLink name="components" path="/guide/artplayer.html">ArtPlayer</ProjectLink> page for available props.
+Доступные свойства смотрите на странице <ProjectLink name="components" path="/guide/artplayer.html">ArtPlayer</ProjectLink>.
 
 ## AudioPlayer
 
-An audio player:
+Аудиоплеер:
 
 <AudioPlayer src="/assets/assets/sample.mp3" />
 
@@ -172,7 +172,7 @@ An audio player:
 <AudioPlayer src="/assets/assets/sample.mp3" />
 ```
 
-An audio player with poster and title:
+Аудиоплеер с постером и названием:
 
 <AudioPlayer
   src="/assets/assets/sample.mp3"
@@ -188,7 +188,7 @@ An audio player with poster and title:
 />
 ```
 
-See <ProjectLink name="components" path="/guide/audioplayer.html">AudioPlayer</ProjectLink> page for available props.
+Доступные свойства смотрите на странице <ProjectLink name="components" path="/guide/audioplayer.html">AudioPlayer</ProjectLink>.
 
 ## Значок
 
@@ -283,12 +283,12 @@ See <ProjectLink name="components" path="/guide/audioplayer.html">AudioPlayer</P
 
 Компонент, который позволяет отображать иконки шрифтов.
 
-- Home icon: <FontIcon icon="home" />
-- A big and green share icon: <FontIcon icon="share" color="#3eaf7c" size="32" />
+- Иконка «Главная»: <FontIcon icon="home" />
+- Большая зеленая иконка «Поделиться»: <FontIcon icon="share" color="#3eaf7c" size="32" />
 
 ```md
-- Home icon: <FontIcon icon="home" />
-- A big and green share icon: <FontIcon icon="share" color="#3eaf7c" size="32" />
+- Иконка «Главная»: <FontIcon icon="home" />
+- Большая зеленая иконка «Поделиться»: <FontIcon icon="share" color="#3eaf7c" size="32" />
 ```
 
 Доступные свойства смотрите на странице <ProjectLink name="components" path="/guide/fonticon.html">FontIcon</ProjectLink>.
@@ -317,7 +317,7 @@ See <ProjectLink name="components" path="/guide/audioplayer.html">AudioPlayer</P
 
 ## Replit
 
-An embedded repl:
+Встроенный ответ:
 
 <Replit user="FuckDoctors" repl="Java-Test" />
 
@@ -325,7 +325,7 @@ An embedded repl:
 <Replit user="FuckDoctors" repl="Java-Test" />
 ```
 
-An embedded repl with opening file:
+Встроенный repl с открытием файла:
 
 <Replit user="FuckDoctors" repl="Java-Test" file="Main.java" />
 
@@ -333,7 +333,7 @@ An embedded repl with opening file:
 <Replit user="FuckDoctors" repl="Java-Test" file="Main.java" />
 ```
 
-A repl link:
+Ссылка на repl:
 
 <Replit user="FuckDoctors" repl="Java-Test" plain />
 
@@ -343,7 +343,7 @@ A repl link:
 
 ## SiteInfo
 
-Basic site info:
+Основная информация о сайте:
 
 <SiteInfo name="Mr.Hope’s Blog" url="https://mrhope.site" preview="https://theme-hope.vuejs.press/assets/image/mrhope.jpg" />
 
@@ -351,7 +351,7 @@ Basic site info:
 <SiteInfo name="Mr.Hope’s Blog" url="https://mrhope.site" preview="https://theme-hope.vuejs.press/assets/image/mrhope.jpg" />
 ```
 
-Site info with more properties:
+Информация о сайте с дополнительными свойствами:
 
 <SiteInfo
   name="Mr.Hope’s Blog"
@@ -373,7 +373,7 @@ Site info with more properties:
 />
 ```
 
-See <ProjectLink name="components" path="/guide/siteinfo.html">SiteInfo</ProjectLink> page for available props.
+Доступные свойства смотрите на странице <ProjectLink name="components" path="/guide/siteinfo.html">SiteInfo</ProjectLink>.
 
 ## StackBlitz
 

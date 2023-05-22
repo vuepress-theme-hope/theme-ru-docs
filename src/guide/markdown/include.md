@@ -63,15 +63,15 @@ export default {
 - `@include(filename{start-})`
 - `@include(filename{-end})`
 
-Also you can include file region:
+Также вы можете указать область файла:
 
 - `@include(filename#region)`
 
-:::: info File region
+:::: info Область файла
 
-File region is a concept in vscode, where the region content is surrounded by `#region` and `#endregion` comments.
+Область файла — это понятие в vscode, где содержимое области окружено комментариями `#region` и `#endregion`.
 
-Here are some examples:
+Вот некоторые примеры:
 
 ::: code-tabs#language
 

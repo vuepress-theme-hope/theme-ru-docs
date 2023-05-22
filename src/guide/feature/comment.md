@@ -182,20 +182,20 @@ export default {
 
 ## Artalk
 
-### Deploy Artalk Server
+### Развертывание сервера Artalk
 
-See the [Artalk documentation](https://artalk.js.org/guide/deploy.html) for deploying artalk server.
+Смотрите [документацию Artalk](https://artalk.js.org/guide/deploy.html) для развертывания сервера artalk.
 
-### Artalk Configuration
+### Конфигурация Artalk
 
-Please set `provider: "Artalk"` and pass your server link to `server` in the plugin options.
+Пожалуйста, установите `provider: "Artalk"` и передайте ссылку на ваш сервер на `server` в настройках плагина.
 
-For other configuration items, see [Artalk Configuration](https://artalk.js.org/guide/frontend/config.html).
+Другие элементы конфигурации см. в разделе [Конфигурация Artalk](https://artalk.js.org/guide/frontend/config.html).
 
 ::: note
 
-The plugin retains the `el` option and inserts Artalk itself on the page. At the same time, the plugin will automatically set the `pageTitle`, `pageKey` and `site` options for you according to the VuePress information.
+Плагин сохраняет опцию `el` и вставляет сам Artalk на страницу. В то же время плагин автоматически установит для вас параметры `pageTitle`, `pageKey` и `site` в соответствии с информацией VuePress.
 
-Before VuePress2 provides client configuration, the two function options `imgUploader` and `avatarURLBuilder` are not supported.
+До того, как VuePress2 предоставит конфигурацию клиента, два параметра функции `imgUploader` и `avatarURLBuilder` не поддерживаются.
 
 :::

@@ -15,7 +15,7 @@ tag:
 
 ## Ссылки на боковой панели
 
-You should use `sidebar` in theme options to control sidebar.
+Вы должны использовать `sidebar` в настройках темы для управления боковой панелью.
 
 ### Строковый формат
 
@@ -633,11 +633,11 @@ export default {
 
 Если вы используете структуру для создания папки с другими папками, вложенными в нее, соответствующая папка будет отображаться как группа. Таким образом, вы можете быть даже более агрессивным, например, установив `sidebar: "structure"`, чтобы все ваши боковые панели автоматически генерировались из файловой структуры.
 
-::: warning Limitations
+::: warning Ограничения
 
-Since structure sidebar is depending on file structure and markdown frontmatter, any changes in markdown may update the structure sidebar. (E.g: setting `index: false` in frontmatter as described below)
+Поскольку боковая панель структуры зависит от структуры файла и основного содержания уценки, любые изменения в уценке могут обновить боковую панель структуры. (Например: установка `index: false` во frontmatter, как описано ниже)
 
-However, recalculating the sidebar could be expensive for large sites, so the theme will only recalculate with [`hotReload` enabled](../../config/theme/basic.md#hotreload).
+Однако пересчет боковой панели может быть дорогостоящим для больших сайтов, поэтому тема будет пересчитываться только с включенной функцией [`hotReload`](../../config/theme/basic.md#hotreload).
 
 :::
 

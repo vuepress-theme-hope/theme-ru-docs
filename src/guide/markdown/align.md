@@ -68,31 +68,31 @@ export default {
 ## Демо
 
 :::: danger
-vuepress-theme-hope v2 is still in W.I.P, the API may have
+vuepress-theme-hope v2 все еще находится в стадии разработки, возможно, API
 
 ::: center
-Significant changes.
+Значительные изменения.
 :::
 
-If you meet a bug during usage, you can
+Если вы обнаружите ошибку во время использования, вы можете
 
 ::: right
-[open an issue](https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues).
+[открыть issue](https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues).
 :::
 ::::
 
 ```md
 :::: danger
-vuepress-theme-hope v2 is still in W.I.P, the API may have
+vuepress-theme-hope v2 все еще находится в стадии разработки, возможно, API
 
 ::: center
-Significant changes.
+Значительные изменения.
 :::
 
-If you meet a bug during usage, you can
+Если вы обнаружите ошибку во время использования, вы можете
 
 ::: right
-[open an issue](https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues).
+[открыть issue](https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues).
 :::
 ::::
 ```

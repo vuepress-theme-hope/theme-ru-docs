@@ -615,7 +615,7 @@ root((VuePress))
 
 :::
 
-### Timeline
+### Временная шкала
 
 ```timeline
 title Timeline of Industrial Revolution
@@ -628,7 +628,7 @@ section 21st century
     Industry 5.0 : Artificial intelligence, Big data,3D printing
 ```
 
-::: details Code
+::: details Код
 
 ````md
 ```timeline
