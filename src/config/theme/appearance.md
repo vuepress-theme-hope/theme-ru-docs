@@ -108,7 +108,7 @@ tag:
 - Тип: `number`
 - По умолчанию: `1440`
 
-Window width switching wide screen view and desktop view in pixels
+Ширина окна при переключении широкоэкранного режима и режима рабочего стола в пикселях
 
 ::: warning
 
@@ -132,12 +132,12 @@ Window width switching wide screen view and desktop view in pixels
 
 :::
 
-## print <Badge text="Root only" type="warning" />
+## print <Badge text="Только root" type="warning" />
 
-- Type: `boolean`
-- Default: `true`
+- Тип: `boolean`
+- По умолчанию: `true`
 
-Whether display print icon in desktop mode.
+Отображать ли значок печати в режиме рабочего стола.
 
 ## iconPrefix <Badge text="Только root" type="warning" />
 

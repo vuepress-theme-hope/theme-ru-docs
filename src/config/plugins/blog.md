@@ -22,24 +22,24 @@ tag:
 
 ### excerpt
 
-- Type: `boolean`
-- Default: `true`
+- Тип: `boolean`
+- По умолчанию: `true`
 
-Whether generate excerpt for page.
+Генерировать ли выдержку для страницы.
 
 ### excerptSeparator
 
-- Type: `string`
-- Default: `<!-- more -->`
+- Тип: `string`
+- По умолчанию: `<!-- more -->`
 
-Separator used to split excerpt from page content.
+Разделитель, используемый для отделения отрывка от содержимого страницы.
 
 ### excerptLength
 
-- Type: `number`
-- Default: `300`
+- Тип: `number`
+- По умолчанию: `300`
 
-Length of excerpt when auto generating.
+Длина выдержки при автогенерации.
 
 ### filter
 
@@ -52,14 +52,14 @@ Length of excerpt when auto generating.
 
 ### excerptFilter
 
-- Type: `(page: Page) => boolean`
-- Default: `filter` option
+- Тип: `(page: Page) => boolean`
+- По умолчанию: `filter` option
 
-Page filter, determine whether the plugin should generate excerpt for it.
+Фильтр страницы, определите, должен ли плагин генерировать для нее выдержку.
 
 ### type
 
-- Type: `BlogTypeOptions[]`
+- Тип: `BlogTypeOptions[]`
 
   ```ts
   interface BlogTypeOptions {
@@ -99,11 +99,11 @@ Page filter, determine whether the plugin should generate excerpt for it.
   }
   ```
 
-- Default: `[]`
-- Details:
-  - [Guide → Article List](../../guide/blog/article.md#other-types-of-articles)
+- По умолчанию: `[]`
+- Детали:
+  - [Руководство → Список статей](../../guide/blog/article.md#other-types-of-articles)
 
-Additional article type.
+Дополнительный тип статьи.
 
 ### article
 
@@ -156,7 +156,7 @@ Additional article type.
 
 ### hotReload
 
-- Type: `boolean`
-- Default: Whether using `--debug` flag
+- Тип: `boolean`
+- По умолчанию: Whether using `--debug` flag
 
-Whether to enable hot reload in the development server.
+Включить ли горячую перезагрузку на сервере разработки.

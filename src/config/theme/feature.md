@@ -163,9 +163,9 @@ tag:
 - `"ReadingTime"`
 - `"Word"`
 
-::: warning Limitation
+::: warning Ограничение
 
-ReadingTime and Word are not available in devServer by default, [see reasons and how to enable it](./basic.md#hotreload).
+ReadingTime и Word недоступны в devServer по умолчанию, [смотрите причины и как их включить](./basic.md#hotreload).
 
 :::
 
@@ -200,7 +200,7 @@ ReadingTime and Word are not available in devServer by default, [see reasons and
 
 Конфигурация шифрования — это объект с именем ключа, соответствующим пути, и значением ключа, соответствующим паролю, который принимает строку или массив строк.
 
-::: details Example
+::: details Пример
 
 ```js
 {

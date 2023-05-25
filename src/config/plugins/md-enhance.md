@@ -73,8 +73,8 @@ tag:
 
 ::: note
 
-- `true` equals to `'always'`
-- `false` equals to `'never'`
+- `true` эквивалентно `'always'`
+- `false` эквивалентно `'never'`
 
 :::
 
@@ -216,8 +216,8 @@ interface TaskListOptions {
 
 ### mathjax
 
-- Type: `MathJaxOptions | boolean`
-- Default: `false`
+- Тип: `MathJaxOptions | boolean`
+- По умолчанию: `false`
 
 Включить ли поддержку синтаксиса $\TeX$ через Math Jax. Вы можете передать объект в конфигурацию Math Jax.
 

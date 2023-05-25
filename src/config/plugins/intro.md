@@ -47,7 +47,7 @@ tag:
 
 ### Плагины предоставлены Mr.Hope
 
-- <ProjectLink name="auto-catalog">vuepress-plugin-auto-catalog</ProjectLink>: Catalog automatically generation for VuePress2
+- <ProjectLink name="auto-catalog">vuepress-plugin-auto-catalog</ProjectLink>: Автоматическое создание каталога для VuePress2
 
 - <ProjectLink name="blog2">vuepress-plugin-blog2</ProjectLink>: Плагин блога для VuePress2
 
@@ -83,9 +83,9 @@ tag:
 
 - <ProjectLink name="redirect">vuepress-plugin-redirect</ProjectLink>: Перенаправления страницы
 
-- <ProjectLink name="remove-pwa">vuepress-plugin-remove-pwa</ProjectLink>: Plugins to remove pwa
+- <ProjectLink name="remove-pwa">vuepress-plugin-remove-pwa</ProjectLink>: Плагины для удаления pwa
 
-- <ProjectLink name="search-pro">vuepress-plugin-search-pro</ProjectLink>: Client search plugin
+- <ProjectLink name="search-pro">vuepress-plugin-search-pro</ProjectLink>: Плагин клиентского поиска
 
 :::
 
@@ -95,7 +95,7 @@ tag:
 
 - [@vuepress/plugin-container][container]: Пользовательский контейнер
 
-- [@vuepress/external-link-icon][external-link-icon]: Добавить значок внешней ссылки для внешних ссылок в Markdown
+- [@vuepress/external-link-icon][external-link-icon]: Добавить иконку внешней ссылки для внешних ссылок в Markdown
 
 - [@vuepress/plugin-git][git]: Информационный плагин на основе Git
 

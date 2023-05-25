@@ -11,9 +11,9 @@ tag:
 
 ## components
 
-Controls `vuepress-plugin-components`, providing a set of components for Markdown.
+Управляет `vuepress-plugin-components`, предоставляя набор компонентов для Markdown.
 
-Available component which can be used in markdown files are:
+Доступные компоненты, которые можно использовать в файлах уценки:
 
 - `"Badge"`
 - `"BiliBili"`
@@ -24,13 +24,13 @@ Available component which can be used in markdown files are:
 - `"VideoPlayer"`
 - `"YouTube"`
 
-You can set `plugin.components.components` with an array of components you want, by default it will be `["Badge"]`.
+Вы можете установить `plugin.components.components` с массивом компонентов, которые вы хотите, по умолчанию это будет `["Badge"]`.
 
-Also, you can set `plugin.components.rootComponents` to enable some root components, such as addThis and notice.
+Кроме того, вы можете установить `plugin.components.rootComponents`, чтобы включить некоторые корневые компоненты, такие как addThis и уведомление.
 
 ::: info
 
-For plugin options, please refer to <ProjectLink name="components" path="/config.html">components plugin options</ProjectLink>.
+Параметры подключаемого модуля смотрите в разделе <ProjectLink name="components" path="/config.html">параметры подключаемого модуля компонентов</ProjectLink>.
 
 :::
 
@@ -72,19 +72,19 @@ For plugin options, please refer to <ProjectLink name="components" path="/config
 
 ### prismjs.light
 
-- Type: `PrismjsTheme`
-- Default: `"one-light"`
-- Details: [Interface → Code Themes](../../guide/interface/code-theme.md)
+- Тип: `PrismjsTheme`
+- По умолчанию: `"one-light"`
+- Детали: [Интерфейс → Темы кода](../../guide/interface/code-theme.md)
 
-Prism.js theme used in lightmode.
+Тема Prism.js используется в светлом режиме.
 
 ### prismjs.dark
 
-- Type: `PrismjsTheme`
-- Default: `"one-dark"`
-- Details: [Interface → Code Themes](../../guide/interface/code-theme.md)
+- Тип: `PrismjsTheme`
+- По умолчанию: `"one-dark"`
+- Детали: [Интерфейс → Темы кода](../../guide/interface/code-theme.md)
 
-Prism.js theme used in darkmode.
+Тема Prism.js используется в темном режиме.
 
 ## photoSwipe <Badge text="включено по умолчанию" />
 

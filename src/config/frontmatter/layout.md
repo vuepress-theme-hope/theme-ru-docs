@@ -76,66 +76,66 @@ tag:
 
 ## order
 
-- Type: `number`
+- Тип: `number`
 
-Page order in sidebar.
+Порядок страниц в боковой панели.
 
-- By filling in a positive number, the page will appear in the front, while the smaller number comes to the front.
-- By filling in a negative number, the page will appear in the end, while the greater number comes to the front. (e.g. -1 is after -2)
+- При вводе положительного числа страница будет отображаться на переднем плане, а меньшее число будет на переднем плане.
+- При вводе отрицательного числа страница будет отображаться в конце, а большее число окажется впереди. (например, -1 после -2)
 
 ## dir
 
-Sidebar group information used for [structure sidebar](../../guide/layout/sidebar.md#auto-sidebar).
+Информация о группе боковой панели, используемая для [структурной боковой панели](../../guide/layout/sidebar.md#auto-sidebar).
 
 ### dir.text
 
-- Type: `string`
-- Default: title of `README.md`
+- Тип: `string`
+- По умолчанию: title of `README.md`
 
-Group title.
+Название группы.
 
 ### dir.icon
 
-- Type: `string`
-- Default: icon of `README.md`
+- Тип: `string`
+- По умолчанию: icon of `README.md`
 
-Group icon.
+Иконка группы.
 
 ### dir.collapsible
 
-- Type: `boolean`
-- Default: `true`
+- Тип: `boolean`
+- По умолчанию: `true`
 
-Whether group is collapsible
+Является ли группа сворачиваемой.
 
 ### dir.link
 
-- Type: `boolean`
-- Default: `false`
+- Тип: `boolean`
+- По умолчанию: `false`
 
-Whether Dir is clickable.
+Является ли Dir кликабельным.
 
 ::: note
 
-Setting to `true` means setting group link to link of `README.md`.
+Установка `true` означает установку групповой ссылки на ссылку `README.md`.
 
 :::
 
 ### dir.index
 
-- Type: `boolean`
-- Default: `true`
+- Тип: `boolean`
+- По умолчанию: `true`
 
-Whether index current dir
+Индексирует ли текущий каталог
 
 ### dir.order
 
-- Type: `number`
+- Тип: `number`
 
-Group order in sidebar.
+Порядок группы в сайдбаре.
 
-- By filling in a positive number, the page will appear in the front, while the smaller number comes to the front.
-- By filling in a negative number, the page will appear in the end, while the greater number comes to the front. (e.g. -1 is after -2)
+- При вводе положительного числа страница будет отображаться на переднем плане, а меньшее число будет на переднем плане.
+- При вводе отрицательного числа страница будет отображаться в конце, а большее число окажется впереди. (например, -1 после -2)
 
 ## comment
 
