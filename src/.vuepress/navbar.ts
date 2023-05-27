@@ -24,7 +24,7 @@ export default navbar([
         icon: "puzzle-piece",
         children: [
           {
-            text: "Auto catalog Plugin",
+            text: "Плагин автокаталога",
             icon: "network-wired",
             link: "https://plugin-auto-catalog.vuejs.press",
           },
@@ -84,7 +84,7 @@ export default navbar([
             link: "https://plugin-reading-time2.vuejs.press",
           },
           {
-            text: "Remove PWA Plugin",
+            text: "Плагин удаления PWA",
             icon: "trash-can",
             link: "https://plugin-remove-pwa.vuejs.press",
           },
@@ -99,7 +99,7 @@ export default navbar([
             link: "https://plugin-sass-palette.vuejs.press",
           },
           {
-            text: "Client Search Plugin",
+            text: "Плагин клиентского поиска",
             icon: "search",
             link: "https://plugin-search-pro.vuejs.press",
           },
@@ -109,7 +109,7 @@ export default navbar([
             link: "https://plugin-seo2.vuejs.press",
           },
           {
-            text: "VuePress shared",
+            text: "VuePress поделиться",
             icon: "toolbox",
             link: "https://plugin-shared.vuejs.press",
           },
