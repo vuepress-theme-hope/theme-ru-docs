@@ -1,17 +1,17 @@
 ---
-title: Customize
+title: Кастомизация
 icon: gear
 dir:
   order: 4
 category:
-  - Cookbook
-  - Customize
+  - Учебник с примерами
+  - Кастомизация
 tag:
-  - Customize
+  - Кастомизация
 article: false
 ---
 
-This section shows you the relevant codes involved in common customization.
+В этом разделе показаны соответствующие коды, участвующие в общей настройке.
 
 <!-- more -->
 
@@ -29,12 +29,12 @@ This section shows you the relevant codes involved in common customization.
 
 Полный список конфигураций, поддерживаемых указанными выше файлами, смотрите в [Конфиг → Стиль](../../config/style.md).
 
-## Details
+## Детали
 
-- [Customizing layouts](./layout.md)
+- [Кастомизация макетов](./layout.md)
 
-- [Customizing colors](./color.md)
+- [Кастомизация цветов](./color.md)
 
-- [Customizing fonts](./font.md)
+- [Кастомизация шрифтов](./font.md)
 
-- [Customizing effects](./effect.md)
+- [Кастомизация эффектов](./effect.md)

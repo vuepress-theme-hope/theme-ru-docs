@@ -1,31 +1,31 @@
 ---
-title: Customize Effects
+title: Кастомизация эффектов
 icon: wand-magic-sparkles
 category:
-  - Cookbook
-  - Customize
+  - Учебник с примерами
+  - Кастомизация
 tag:
-  - Customize
+  - Кастомизация
 ---
 
-This tutorial guides you how to customize theme effects.
+В этом руководстве вы узнаете, как настроить эффекты темы.
 
 <!-- more -->
 
-## Clear Effects
+## Очистка эффектов
 
-By default the theme will:
+По умолчанию тема будет:
 
-- Use color list to decorate categories and tags
-- Add animation when switching pages and elements
-- Add ease-in animations to homepage elements, and add hovering effects to features.
-- Use a more fancy code copy button
-- Use fancy tooltips.
-- Added fade-in when switching between day mode and night mode
+- Использовать список цветов для украшения категорий и тегов
+- Добавлять анимацию при переключении страниц и элементов
+- Добавлять анимацию к элементам домашней страницы и добавлять эффекты наведения к функциям
+- Использовать более причудливую кнопку копирования кода
+- Использовать причудливые всплывающие подсказки
+- Добавлять затухание при переключении между дневным и ночным режимами
 
-If you need to remove these fancy styles, please set `pure: true` in the theme options to enable pure mode.
+Если вам нужно удалить эти причудливые стили, установите `pure: true` в параметрах темы, чтобы включить чистый режим.
 
-Meanwhile, you can control the duration of the animation by controlling `$color-transition` and `transform-transition` in the palette file:
+Между тем, вы можете контролировать продолжительность анимации, управляя `$color-transition` и `transform-transition` в файле палитры:
 
 ```scss
 // .vuepress/styles/palette.scss
@@ -34,13 +34,13 @@ $color-transition: 0s;
 $transform-transition: 0s;
 ```
 
-## Adding Effects
+## Добавление эффектов
 
-You are free to add more effects to your site through config file options and client files provided by VuePress.
+Вы можете добавлять дополнительные эффекты на свой сайт с помощью параметров файла конфигурации и клиентских файлов, предоставляемых VuePress.
 
-- If you need to add global CSS and JS, please set `head` option in VuePress [config file](../vuepress/config.md).
+- Если вам нужно добавить глобальные CSS и JS, установите параметр VuePress `head` в [файле конфигурации](../vuepress/config.md).
 
-  ::: tip Example
+  ::: tip Пример
 
   ```ts
   // .vuepress/config.ts
@@ -81,7 +81,7 @@ You are free to add more effects to your site through config file options and cl
 
   :::
 
-- If you need to add page-level CSS and JS, please set `head` option in [Front Matter](../vuepress/page.md#frontmatter).
+- Если вам нужно добавить CSS и JS на уровне страницы, установите параметр `head` в [Front Matter](../vuepress/page.md#frontmatter).
 
   ```md
   ---
@@ -97,12 +97,12 @@ You are free to add more effects to your site through config file options and cl
           /* your style here */
   ---
 
-  Page content
+  Содержание страницы
 
   ...
   ```
 
-- More global advanced operations can be done through [client configuration file](../vuepress/config.md#client-config).
+- Более глобальные расширенные операции можно выполнять через [файл конфигурации клиента](../vuepress/config.md#client-config).
 
   ```ts
   // .vuepress/client.ts
