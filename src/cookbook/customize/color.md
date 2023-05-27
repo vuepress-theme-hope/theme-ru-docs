@@ -1,34 +1,34 @@
 ---
-title: Customize color
+title: Кастомизация цветов
 icon: palette
 category:
-  - Cookbook
-  - Customize
+  - Учебник с примерами
+  - Кастомизация
 tag:
-  - Customize
+  - Кастомизация
 ---
 
-This page guides you how to customize theme colors.
+На этой странице вы узнаете, как настроить цвета темы.
 
 <!-- more -->
 
-## Modify the built-in color
+## Изменить встроенный цвет
 
-The theme controls the color through the palette, you may need to set your color in two situations:
+Тема управляет цветом через палитру, вам может понадобиться установить свой цвет в двух случаях:
 
-1. This color remains the same in day mode and night mode, like theme color.
-2. This color is different in day mode, night mode, such as background color, font, border color, etc.
+1. Этот цвет остается одинаковым в дневном и ночном режимах, как и цвет темы.
+2. Этот цвет отличается в дневном и ночном режимах, например, цвет фона, шрифт, цвет границы и т. д.
 
-The palette file is the `.vuepress/styles/palette.scss` file under the VuePress project folder.
+Файл палитры — это файл `.vuepress/styles/palette.scss` в папке проекта VuePress.
 
-For the former, you need to write variable values in `palette.scss`, e.g.:
+Для первого вам нужно записать значения переменных в `palette.scss`, например:
 
 ```scss
 // .vuepress/styles/palette.scss
 $theme-color: #3eaf7c;
 ```
 
-For the latter, you need to set up a Map with key names `light` and `dark`, and values as color values, e.g.:
+Для последнего вам необходимо настроить карту с ключевыми именами `light` и `dark`, и значениями в качестве значений цвета, например:
 
 ```scss
 // .vuepress/styles/palette.scss
@@ -38,11 +38,11 @@ $bg-color: (
 );
 ```
 
-See [Theme Configuration → Color Settings](../../config/style.md#color-config) for all available color variables.
+Смотрите [Конфигурация темы → Настройки цвета](../../config/style.md#color-config) для всех доступных цветовых переменных.
 
-## Modify other colors
+## Изменить другие цвета
 
-Sometimes, you may want to modify some colors that are not in `palette.scss`, such as the background color of the code block. At this time, you can check whether the corresponding color attribute value is a CSS variable through the devTools. If so, you can go to `index.scss` to manually override this variable value:
+Иногда вам может понадобиться изменить некоторые цвета, которых нет в `palette.scss`, например цвет фона блока кода. В настоящее время вы можете проверить, является ли соответствующее значение атрибута цвета переменной CSS с помощью devTools. Если это так, вы можете перейти к `index.scss`, чтобы вручную переопределить это значение переменной:
 
 ```scss
 // .vuepress/styles/index.scss
@@ -57,7 +57,7 @@ Sometimes, you may want to modify some colors that are not in `palette.scss`, su
 }
 ```
 
-If not, write your own selectors to override them:
+Если нет, напишите свои собственные селекторы, чтобы переопределить их:
 
 ```scss
 // .vuepress/styles/index.scss

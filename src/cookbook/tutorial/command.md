@@ -75,10 +75,10 @@ npx vp-update
 
 ::: warning
 
-Any official plugins starting with `@vuepress/plugin-` should be the same version as VuePress.
+Все официальные плагины, начинающиеся с `@vuepress/plugin-`, должны быть той же версии, что и VuePress.
 
-I.E.: if you are using `@vuepress/plugin-search` and `@vuepress/utils` , you should ensure they have the same version number as `vuepress`.
+То есть: если вы используете `@vuepress/plugin-search` и `@vuepress/utils`, вы должны убедиться, что они имеют тот же номер версии, что и `vuepress`.
 
-Also, if you're using another third-party plugin, make sure it's compatible with the version of VuePress you're upgrading to.
+Кроме того, если вы используете другой сторонний плагин, убедитесь, что он совместим с версией VuePress, до которой вы переходите.
 
 :::

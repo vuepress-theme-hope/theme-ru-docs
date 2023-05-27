@@ -1,36 +1,36 @@
 ---
-title: Customizing Fonts
+title: Кастомизация шрифтов
 icon: font
 category:
-  - Cookbook
-  - Customize
+  - Учебник с примерами
+  - Кастомизация
 tag:
-  - Customize
+  - Кастомизация
 ---
 
-This page guides you how to customize theme fonts.
+На этой странице вы узнаете, как настроить шрифты темы.
 
 <!-- more -->
 
-## Font Family
+## Семейство шрифтов
 
-For common font families, they can generally be divided into **serif**[^serif] and **sans-serif**[^sans-serif].
+Для распространенных семейств шрифтов их обычно можно разделить на **serif**[^serif] и **sans-serif**[^sans-serif].
 
-## Modifying Fonts
+## Изменение шрифтов
 
-The theme provides `$font-family`, `$font-family-heading` and `$font-family-mono` three variables to control the font in `.vuepress/styles/palette.scss`.
+Тема предоставляет три переменные `$font-family`, `$font-family-heading` и `$font-family-mono` для управления шрифтом в `.vuepress/styles/palette.scss`.
 
-- `$font-family`: the font used on normal text
-- `$font-family-heading:` font for heading elements
-- `$font-family-mono`: the font used in code block and inline codes
+- `$font-family`: шрифт, используемый для обычного текста
+- `$font-family-heading:` шрифт для элементов заголовков
+- `$font-family-mono`: шрифт, используемый в блоке кода и встроенных кодах
 
-By default, the theme uses sans serif with normal text.
+По умолчанию тема использует шрифт без засечек с обычным текстом.
 
-::: tip Use Serifs
+::: tip Используйте Serifs
 
-If you prefer serif fonts, you can modify `$font-family` to the font you want.
+Если вы предпочитаете шрифты с засечками, вы можете изменить `$font-family` на нужный вам шрифт.
 
-The following font families are our recommended first choice for serif fonts:
+Следующие семейства шрифтов являются нашим рекомендуемым первым выбором для шрифтов с засечками:
 
 ```scss
 $font-family: 'Georgia, -apple-system, "Nimbus Roman No9 L", sans-serif';
@@ -38,23 +38,23 @@ $font-family: 'Georgia, -apple-system, "Nimbus Roman No9 L", sans-serif';
 
 :::
 
-## Fallback Font
+## Резервный шрифт
 
-Because different platforms, different operating systems, and different installation methods (slim/full) will cause huge differences in the number and types of fonts in the font library, you should set as many fonts as possible, and ensure that the fallback fonts [^fallback-font] exists.
+Поскольку разные платформы, разные операционные системы и разные методы установки (тонкая/полная) будут вызывать огромные различия в количестве и типах шрифтов в библиотеке шрифтов, вам следует установить как можно больше шрифтов и убедиться, что резервные шрифты [^fallback-font] существует.
 
-::: tip Best Practices
+::: tip Лучшие практики
 
-The fallback font [^fallback-font] can ensure that your website displays well on different operating systems and devices with different fonts installed.
+Резервный шрифт [^fallback-font] может гарантировать, что ваш веб-сайт будет хорошо отображаться в разных операционных системах и на устройствах с установленными разными шрифтами.
 
 :::
 
-## Font Library
+## Библиотека шрифтов
 
-You can find more fonts in [Google Fonts](https://fonts.google.com/), and you can preview and download them online.
+Вы можете найти больше шрифтов в [Google Fonts](https://fonts.google.com/), а также просмотреть и загрузить их онлайн.
 
-Please search and select the font and weight you want in the webpage, then click the `Select` button on the right to add it to your selection list, then click the button in the upper right corner to view your favorite fonts and get the link Imported in the configuration file of VuePress.
+Пожалуйста, найдите и выберите нужный шрифт и толщину на веб-странице, затем нажмите кнопку `Select` справа, чтобы добавить его в список выбора, затем нажмите кнопку в правом верхнем углу, чтобы просмотреть ваши любимые шрифты и получить ссылку Импортируется в файл конфигурации VuePress.
 
-We assume that you have selected the 400 and 700 italic fonts of Lora font. After clicking the button in the upper right corner, Google will give the following code in the sidebar:
+Мы предполагаем, что вы выбрали курсив 400 и 700 шрифта Lora. После нажатия кнопки в правом верхнем углу Google выдаст в сайдбаре следующий код:
 
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -69,7 +69,7 @@ We assume that you have selected the 400 and 700 italic fonts of Lora font. Afte
 font-family: "Lora", serif;
 ```
 
-Then all you need to do is import and use them by adding the following code in the VuePress configuration file:
+Затем все, что вам нужно сделать, это импортировать и использовать их, добавив следующий код в файл конфигурации VuePress:
 
 ```ts
 // .vuepress/config.ts
@@ -100,7 +100,7 @@ export default defineUserConfig({
 });
 ```
 
-Also modify the `$font-family` variable in the palette file:
+Также измените переменную `$font-family` в файле палитры:
 
 ```scss
 // .vuepress/styles/palette.scss
@@ -109,19 +109,19 @@ Also modify the `$font-family` variable in the palette file:
 $font-family: "Lora, serif";
 ```
 
-In this way, you can use lora font in your website.
+Таким образом, вы можете использовать шрифт lora на своем веб-сайте.
 
-::: details lora Demo
+::: details lora Демо
 
 <!-- markdownlint-disable MD033 -->
 
 <div class="lora">
 
-## Whereas recognition of the inherent dignity
+## Принимая во внимание, что признание присущего достоинству
 
-No one shall be subjected to arbitrary arrest, detention or exile.
-Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.
-No one shall be subjected to arbitrary interference with his privacy, family, home or correspondence, nor to attacks upon his honour and reputation. Everyone has the right to the protection of the law against such interference or attacks.
+Никто не может быть подвергнут произвольному аресту, задержанию или ссылки.
+Каждый имеет право на полное равенство на справедливое и публичное разбирательство дела независимым и беспристрастным судом при рассмотрении его прав и обязанностей и любого уголовного обвинения против него.
+Никто не может подвергаться произвольному вмешательству в его частную жизнь, семью, жилище или переписку, а также посягательствам на его честь и репутацию. Каждый имеет право на защиту закона от такого вмешательства или посягательств.
 
 </div>
 
@@ -129,13 +129,13 @@ No one shall be subjected to arbitrary interference with his privacy, family, ho
 
 :::
 
-[^serif]: Related introduction: <https://www.zhihu.com/topic/19559432/intro>
-[^sans-serif]: Related introduction: <https://www.zhihu.com/topic/19559433/intro>
-[^fallback-font]: From Wikipedia
+[^serif]: Связанное введение: <https://www.zhihu.com/topic/19559432/intro>
+[^sans-serif]: Связанное введение: <https://www.zhihu.com/topic/19559433/intro>
+[^fallback-font]: Из Википедии
 
-    Fallback fonts are fonts that are used to display missing characters when the displayed font lacks certain characters. Because it serves as the last line of defense for display, fallback fonts should contain all Unicode characters where possible.
+    Резервные шрифты — это шрифты, которые используются для отображения отсутствующих символов, когда в отображаемом шрифте отсутствуют определенные символы. Поскольку он служит последней линией защиты для отображения, резервные шрифты должны по возможности содержать все символы Юникода.
 
-    When a missing character has no fallback font for display, the missing character is usually displayed as a black square, white hollow square, question mark, Unicode placeholder (U+FFFD), or simply skipped. In practice, systems such as CSS that support sequential display of font lists usually put one or more sets of fallback fonts at the end of the list to prevent missing characters.
+    Если отсутствующий символ не имеет резервного шрифта для отображения, отсутствующий символ обычно отображается в виде черного квадрата, белого пустого квадрата, вопросительного знака, заполнителя Unicode (U+FFFD) или просто пропускается. На практике такие системы, как CSS, которые поддерживают последовательное отображение списков шрифтов, обычно помещают один или несколько наборов резервных шрифтов в конец списка, чтобы предотвратить пропущенные символы.
 
 <script setup lang="ts">
 import { useScriptTag } from '@vueuse/core'

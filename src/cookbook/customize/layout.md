@@ -1,26 +1,26 @@
 ---
-title: Customizing layout
+title: Кастомизация макетов
 icon: object-group
 category:
-  - Cookbook
-  - Customize
+  - Учебник с примерами
+  - Кастомизация
 tag:
-  - Customize
+  - Кастомизация
 ---
 
-This tutorial guides you how to customize theme layout.
+В этом руководстве вы узнаете, как настроить макет темы.
 
 <!-- more -->
 
-## Setting Theme Options
+## Настройка параметров темы
 
-The theme provide many layout-related options for you to customize the layout of the theme. For details about these options, see [Theme Configuration → Layout](../../config/theme/layout.md).
+Тема предоставляет множество параметров, связанных с макетом, чтобы вы могли настроить макет темы. Подробнее об этих параметрах смотрите в разделе [Конфигурация темы → Макет](../../config/theme/layout.md).
 
-## Modify SCSS Variables
+## Изменение переменных SCSS
 
-### Theme Breakpoints
+### Контрольные точки темы
 
-The theme will automatically apply responsive layouts under different screen widths. If you need to modify these breakpoints, you can modify them in the config file.
+Тема будет автоматически применять адаптивные макеты под разную ширину экрана. Если вам нужно изменить эти контрольные точки, вы можете изменить их в файле конфигурации.
 
 ```scss
 // .vuepress/styles/config.scss
@@ -29,11 +29,11 @@ The theme will automatically apply responsive layouts under different screen wid
 $pc = 1280px;
 ```
 
-For details about the config file `.vuepress/styles/config.scss` and the breakpoint variables `$pc`, `$laptop`, `$pad`, `$tablet`, `$mobile`, see [Theme Configuration → Styles](../../config/style.md#configscss).
+Для получения подробной информации о файле конфигурации `.vuepress/styles/config.scss` и переменных точки останова `$pc`, `$laptop`, `$pad`, `$tablet`, `$mobile`, смотрите [Конфигурация темы → Стили](../../config/style.md#configscss).
 
-### Theme Layout Size
+### Размер макета темы
 
-The theme provides common size variables in the palette file, and you can modify these variables in the palette file to achieve the purpose of modifying the layout size.
+Тема предоставляет общие переменные размера в файле палитры, и вы можете изменить эти переменные в файле палитры, чтобы достичь цели изменения размера макета.
 
 ```scss
 // .vuepress/styles/palette.scss
@@ -42,34 +42,34 @@ The theme provides common size variables in the palette file, and you can modify
 $navbar-height = 80px;
 ```
 
-The palette file `.vuepress/styles/palette.scss` and the introduction of layout variables can be found at [Theme Configuration → Style](../../config/style.md#palettescss).
+Файл палитры `.vuepress/styles/palette.scss` и введение переменных макета можно найти в [Конфигурация темы → Стили](../../config/style.md#palettescss).
 
-## Modify Other Layouts
+## Изменить другие макеты
 
-If you want to change the theme layout, but the theme does not provide relevant options, you can consider the following methods:
+Если вы хотите изменить макет темы, но тема не предоставляет соответствующих параметров, вы можете рассмотреть следующие способы:
 
-### Via CSS
+### Через CSS
 
-- If you are not satisfied with the style of the theme, you can adjust the style of the theme components through the style file.
+- Если вас не устраивает стиль темы, вы можете настроить стиль компонентов темы через файл стилей.
 
   ::: note
 
-  In order to override the original style, you need to use the same or higher priority selector or use `!important` directly.
+  Чтобы переопределить исходный стиль, вам нужно использовать тот же или более высокий селектор приоритета или использовать `!important` напрямую.
 
   :::
 
-- If you want to remove some features, you can hide related dom elements by `display: none` in the style file.
+- Если вы хотите удалить некоторые функции, вы можете скрыть связанные элементы dom с помощью `display: none` в файле стиля.
 
 ::: note
 
-The style file is `.vuepress/styles/index.scss` in the project directory, see [Theme Configuration → Style](../../config/style.md#indexscss) for details
+Файл стиля `.vuepress/styles/index.scss` находится в каталоге проекта, подробности смотрите в [Конфигурация темы → Стили](../../config/style.md#indexscss)
 
 :::
 
-### By Overriding Components
+### Переопределение компонентов
 
-All theme components are registered and invoked through aliases, which means that you can replace any component of the theme with your own components by overriding component aliases.
+Все компоненты темы регистрируются и вызываются через псевдонимы, что означает, что вы можете заменить любой компонент темы своими собственными компонентами, переопределив псевдонимы компонентов.
 
-If you just want to add new content at a specific position on the page, then you can replace the component and reference the original component through the slot of the original component.
+Если вы просто хотите добавить новый контент в определенное место на странице, вы можете заменить компонент и сослаться на исходный компонент через слот исходного компонента.
 
-See [Advanced → Replace theme components](../advanced/replace.md) for component aliases, component slots and replacement methods.
+Смотрите [Дополнительно → Замена компонентов темы](../advanced/replace.md) для псевдонимов компонентов, слотов компонентов и методов замены.

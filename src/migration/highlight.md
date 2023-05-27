@@ -9,7 +9,7 @@ icon: fire
 
 ## Обзор
 
-V2 is coming come together with [_VuePress2_](https://v2.vuepress.vuejs.org), with the power of [_Vite4_](https://vitejs.dev) / [_Webpack5_](https://webpack.js.org) and [_Vue3_](https://vuejs.org).
+Версия 2 идет вместе с [_VuePress2_](https://v2.vuepress.vuejs.org), с мощью [_Vite4_](https://vitejs.dev) / [_Webpack5_](https://webpack.js.org) и [_Vue3_](https://vuejs.org).
 
 V2 полностью переписан, включая:
 
@@ -60,11 +60,11 @@ VuePressThemeHope@v2 переписан с composition API, а его систе
 
 - Поддержка [настройки иконок для проектов](../guide/blog/home.md)
 
-- Support [customizing blog page path](../guide/blog/path.md) now
+- Теперь поддерживается [настройка пути к странице блога](../guide/blog/path.md)
 
-- Support [customizing blog post type](../guide/blog/article.md#other-types-of-articles)
+- Поддержка [настройки типа сообщения в блоге](../guide/blog/article.md#other-types-of-articles)
 
-- Support [automatic abstract generation](../guide/blog/article.md#automatically-generate-excerpt)
+- Поддержка [автоматического создания абстрактов](../guide/blog/article.md#automatically-generate-excerpt)
 
 #### Комментарий
 
@@ -97,31 +97,31 @@ Valine и Vssue больше не поддерживаются.
 - Добавлена поддержка JSON-LD
 - Теперь поддерживается внедрение любых тегов заголовка в версии 2.
 
-#### Auto-generating Catalog Page
+#### Автогенерация страницы каталога
 
-- The new `auto-catalog` plugin can automatically generate catalog pages for you
+- Новый плагин `auto-catalog` может автоматически генерировать для вас страницы каталога
 
-#### Others
+#### Другие
 
-- pure mode
+- чистый режим
 
-  The theme now supports [pure mode](../guide/interface/pure.md) with less fancy styles and animations.
+  Тема теперь поддерживает [чистый режим](../guide/interface/pure.md) с менее причудливыми стилями и анимацией.
 
-- RTL layout
+- RTL макет
 
   Themes now fully support RTL layouts
 
-- printing support
+- поддержка печати
 
-  You can now print theme pages using the print button
+  Теперь вы можете распечатать страницы темы с помощью кнопки печати
 
-### Layout
+### Макет
 
-#### Home
+#### Главная
 
-- New homepage style
-- Added multi-feature support
-- Feature added icon support
+- Новый стиль домашней страницы
+- Добавлена многофункциональная поддержка
+- Добавлена функция поддержки иконок
 
 #### Страница
 
@@ -141,15 +141,15 @@ Valine и Vssue больше не поддерживаются.
 
 - Боковая панель теперь автоматически открывается и прокручивается до активированного элемента.
 
-#### Print
+#### Печать
 
-Now you can print website pages.
+Теперь вы можете печатать страницы сайта.
 
-#### Code Block Theme
+#### Тема блока кода
 
-You can now [set different themes](../guide/interface/code-theme.md) for code blocks in dark mode and light mode.
+Теперь вы можете [установить разные темы](../guide/interface/code-theme.md) для блоков кода в темном и светлом режимах.
 
-### Markdown
+### Разметка
 
 Добавлены следующие новые функции:
 
