@@ -59,11 +59,11 @@ npx vp-update
 
 ::: warning
 
-Any official packages starting with `@vuepress/` should be upgrade to the same version as VuePress.
+Любые официальные пакеты, начинающиеся с `@vuepress/`, должны быть обновлены до той же версии, что и VuePress.
 
-I.E.: if you are using `@vuepress/plugin-search` and `@vuepress/utils` , you should ensure they have the same version number as `vuepress`.
+То есть: если вы используете `@vuepress/plugin-search` и `@vuepress/utils`, вы должны убедиться, что они имеют тот же номер версии, что и `vuepress`.
 
-Also, if you're using another third-party plugin, make sure it's compatible with the version of VuePress you're upgrading to.
+Кроме того, если вы используете другой сторонний плагин, убедитесь, что он совместим с версией VuePress, до которой вы переходите.
 
 :::
 
@@ -102,19 +102,19 @@ Auto Minify в CloudFlare неправильно обрабатывает про
 
 ## `FATAL ERROR: XXX - JavaScript heap out of memory`
 
-This means that your `max_old_space_size` setting of Node.js is too small to build this application. You can try to increase the `max_old_space_size` by setting the `NODE_OPTIONS` environment variable.
+Это означает, что параметр `max_old_space_size` в Node.js слишком мал для создания этого приложения. Вы можете попытаться увеличить `max_old_space_size`, установив переменную среды `NODE_OPTIONS`.
 
-`max_old_space_size` is in unit of MB, by default it is half size of your machine memory.
+`max_old_space_size` измеряется в мегабайтах, по умолчанию это половина памяти вашей машины.
 
-This value can be greater than the actual memory size of your machine.
+Это значение может быть больше фактического объема памяти вашего компьютера.
 
-- For small projects, usually it won't take more that 2GB (2048MB).
-- For large projects, usually it won't take more that 4GB (4048MB)
-- If you are enabling blog feature together with lots of markdown enhance features on large sites, usually it won't take more that 8GB (8192MB)
+- Для небольших проектов обычно требуется не более 2 ГБ (2048 МБ).
+- Для больших проектов обычно требуется не более 4 ГБ (4048 МБ)
+- Если вы включаете функцию блога вместе с множеством функций улучшения уценки на больших сайтах, обычно это не займет больше 8 ГБ (8192 МБ).
 
-::: details Ways of increasing
+::: details Пути повышения
 
-With GitHub workflow, set `env` in your workflow file.
+В GitHub workflow установите `env` в файле рабочего процесса.
 
 ```diff
   - name: Build project
@@ -123,7 +123,7 @@ With GitHub workflow, set `env` in your workflow file.
     run: pnpm run build
 ```
 
-On windows, you can follow [this guide](https://www.technewstoday.com/how-to-set-windows-environment-variables/).
+В Windows вы можете следовать [этому руководству](https://www.technewstoday.com/how-to-set-windows-environment-variables/).
 
 :::
 
@@ -135,18 +135,18 @@ On windows, you can follow [this guide](https://www.technewstoday.com/how-to-set
 
 ## `xxx is missing sidebar config.`
 
-Using object format sidebar config means you want to set different sidebar based on routes.
+Использование конфигурации боковой панели формата объекта означает, что вы хотите установить другую боковую панель на основе маршрутов.
 
-- If you want to avoid this warning, you need to add sidebar config for rootLocale path, since all pages will fallback to that.
-- If you want to disable sidebar in current route, set `sidebar: false` in frontmatter.
-- If you want to disable sidebar in current folder, add `[currentFolderRoute]: false` in sidebar config.
-- If you want to tell theme that you only want sidebar in routes you set, add `[rootLocalePath]: false` in sidebar config to tell theme sidebar config is disabled by default.
+- Если вы хотите избежать этого предупреждения, вам нужно добавить конфигурацию боковой панели для пути rootLocale, так как все страницы будут использовать этот путь.
+- Если вы хотите отключить боковую панель в текущем маршруте, установите `sidebar: false` в frontmatter.
+- Если вы хотите отключить боковую панель в текущей папке, добавьте `[currentFolderRoute]: false` в конфигурацию боковой панели.
+- Если вы хотите сообщить теме, что вам нужна боковая панель только в установленных вами маршрутах, добавьте `[rootLocalePath]: false` в конфигурацию боковой панели, чтобы указать, что конфигурация боковой панели темы отключена по умолчанию.
 
-## HotReload not working in DevServer
+## HotReload не работает в DevServer
 
-Some configuration has high performance impact on dev server, so their hot reload are disabled by default. You can enable it manually via `hotReload: true` in theme options.
+Некоторые конфигурации сильно влияют на производительность сервера разработки, поэтому их горячая перезагрузка по умолчанию отключена. Вы можете включить его вручную через `hotReload: true` в настройках темы.
 
-These include categories and tags for blog, structured sidebar and git-based information.
+К ним относятся категории и теги для блога, структурированная боковая панель и информация на основе git.
 
 ## Некоторые настройки страницы недействительны
 
