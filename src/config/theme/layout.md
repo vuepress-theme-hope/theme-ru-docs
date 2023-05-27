@@ -191,9 +191,9 @@ tag:
 
 Вы можете:
 
-- fill in a custom function
-- provide one sorter keyword
-- provide an array of custom function or sorter keyword
+- заполнить пользовательскую функцию
+- предоставить одно ключевое слово сортировщика
+- предоставить массив пользовательской функции или ключевого слова сортировщика
 
 Доступные ключевые слова:
 
@@ -358,10 +358,10 @@ tag:
 
 ### rtl
 
-- Type: `boolean`
-- Default: `false`
+- Тип: `boolean`
+- По умолчанию: `false`
 
-Whether use RTL layout.
+Используете ли макет RTL.
 
 ### toc {#toc-heading}
 

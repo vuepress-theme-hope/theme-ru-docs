@@ -264,27 +264,27 @@ I18n конфиг темы, где можно задать параметры д
 
 ## hotReload
 
-- Type: `boolean`
-- Default: Whether using `--debug` flag
+- Тип: `boolean`
+- По умолчанию: Используется ли флаг `--debug`
 
-Whether to enable hot reload in the development server.
+Включить ли горячую перезагрузку на сервере разработки.
 
 ::: tip
 
-Normally, you will expect:
+Как правило, вы ожидаете:
 
-- devServer can be started as soon as possible
-- changes in markdown can take effect fast on the devServer, and avoid restarting the entire VuePress application.
+- devServer может быть запущен как можно скорее
+- изменения в уценке могут быстро вступить в силу на devServer и избежать перезапуска всего приложения VuePress.
 
-In order to achieve this expectation, the theme needs to skip some time-consuming operations on the devServer, and it needs to disable some time-consuming functions that are triggered by page modifications on the devServer to improve the speed of project startup and hot update. At the same time, because some modifications will change the underlying raw data of VuePress, these modifications will cause the web page refresh and reload the entire VuePress application. In order to avoid frequent page reloads (i.e.: Page refresh is triggered and you are getting a blank screen for a few seconds) when modifying Markdown, the theme disables some features on the devServer.
+Чтобы реализовать это ожидание, теме необходимо пропустить некоторые трудоемкие операции на devServer, а также отключить некоторые трудоемкие функции, которые запускаются модификациями страниц на devServer, чтобы повысить скорость запуска проекта и горячего обновления. В то же время, поскольку некоторые модификации изменят базовые необработанные данные VuePress, эти модификации приведут к обновлению веб-страницы и перезагрузке всего приложения VuePress. Чтобы избежать частых перезагрузок страниц (т. е. обновление страницы запускается, и вы получаете пустой экран в течение нескольких секунд) при изменении Markdown тема отключает некоторые функции на devServer.
 
-By default, devServer has the following limitations:
+По умолчанию devServer имеет следующие ограничения:
 
-- Git-based features will not be enabled, including contributors, automatic creating date and last update time (Calling Git binary and making file IO causes high time consumption)
-- The structured sidebar will only be generated when the application starts, and will not be updated subsequently (Sidebar sorting and indexing depends on every page frontmatter, any change in Markdown content will trigger recalculation, so large number of pages will result high time consumption)
-- Blog articles, tags, categories and lists of articles in each category will not be updated with the devServer (Any change in Markdown content will trigger recalculation, so large number of pages will result high time consumption)
-- ReadingTime and Word Info in blog article information are not injected (Any change in Markdown content will change the page word count information, so a VuePress underlying raw data is updated causing page refresh)
+- Функции на основе Git не будут включены, включая участников, дату автоматического создания и время последнего обновления (вызов двоичного кода Git и создание файлового ввода-вывода вызывают большие затраты времени)
+- Структурированная боковая панель будет создаваться только при запуске приложения и не будет обновляться впоследствии (сортировка и индексация боковой панели зависят от внешнего вида каждой страницы, любое изменение содержимого Markdown вызовет пересчет, поэтому большое количество страниц приведет к большим затратам времени)
+- Статьи блога, теги, категории и списки статей в каждой категории не будут обновляться с помощью devServer (любое изменение содержимого Markdown вызовет пересчет, поэтому большое количество страниц приведет к большим затратам времени)
+- ReadingTime и Word Info в информацию статьи блога не вводятся (любое изменение содержимого Markdown изменит информацию о количестве слов на странице, поэтому базовые необработанные данные VuePress обновляются, вызывая обновление страницы)
 
-Enabling it means you accept that every modification will trigger some expensive recalculations and the whole application will restart, which usually results refreshing the page and a few seconds of blank screen in environments with weak performance.
+Включение этого означает, что вы соглашаетесь с тем, что каждое изменение вызовет некоторые дорогостоящие пересчеты, и все приложение будет перезапущено, что обычно приводит к обновлению страницы и нескольким секундам пустого экрана в средах с низкой производительностью.
 
 :::
