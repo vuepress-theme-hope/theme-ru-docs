@@ -27,6 +27,11 @@ export default hopeTheme(
     copyright: "MIT Licensed | Copyright © 2019-present Mr.Hope",
     displayFooter: true,
 
+    extraLocales: {
+      English: "https://theme-hope.vuejs.press/:route",
+      简体中文: "https://theme-hope.vuejs.press/zh/:route",
+    },
+
     pageInfo: ["ReadingTime", "Category", "Tag"],
 
     blog: {
@@ -35,12 +40,8 @@ export default hopeTheme(
 
     fullscreen: true,
 
-    locales: {
-      "/": {
-        navbar,
-        sidebar,
-      },
-    },
+    navbar,
+    sidebar,
 
     plugins: {
       blog: {
