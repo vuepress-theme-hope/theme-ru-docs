@@ -27,8 +27,8 @@ dependencies:
     specifier: 1.4.0
     version: 1.4.0
   katex:
-    specifier: 0.16.7
-    version: 0.16.7
+    specifier: 0.16.8
+    version: 0.16.8
   three:
     specifier: 0.152.2
     version: 0.152.2
@@ -1685,7 +1685,7 @@ packages:
       '@mdit/plugin-tex': 0.4.6
       '@types/katex': 0.16.0
       '@types/markdown-it': 12.2.3
-      katex: 0.16.7
+      katex: 0.16.8
       markdown-it: 13.0.1
     dev: false
 
@@ -4167,8 +4167,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /katex@0.16.7:
-    resolution: {integrity: sha512-Xk9C6oGKRwJTfqfIbtr0Kes9OSv6IFsuhFGc7tW4urlpMJtuh+7YhzU6YEG9n8gmWKcMAFzkp7nr+r69kV0zrA==}
+  /katex@0.16.8:
+    resolution: {integrity: sha512-ftuDnJbcbOckGY11OO+zg3OofESlbR5DRl2cmN8HeWeeFIV7wTXvAOx8kEjZjobhA+9wh2fbKeO6cdcA9Mnovg==}
     hasBin: true
     dependencies:
       commander: 8.3.0
@@ -5912,7 +5912,7 @@ packages:
       echarts: 5.4.2
       flowchart.ts: 1.0.0
       js-yaml: 4.1.0
-      katex: 0.16.7
+      katex: 0.16.8
       markdown-it: 13.0.1
       mermaid: 10.2.0
       reveal.js: 4.5.0
