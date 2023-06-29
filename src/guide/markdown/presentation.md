@@ -119,7 +119,7 @@ Reveal.js также предоставляет [больше плагинов](
 
 ## Слайд 1
 
-Абзац с текстом и [ссылка](https://mrhope.site)
+Абзац с текстом и [ссылка](https://mister-hope.com)
 
 ---
 
@@ -151,7 +151,7 @@ $$
 
 ## Слайд 1
 
-A paragraph with some text and a [link](https://mrhope.site)
+A paragraph with some text and a [link](https://mister-hope.com)
 
 ---
 
