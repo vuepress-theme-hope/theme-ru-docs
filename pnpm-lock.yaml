@@ -18,8 +18,8 @@ dependencies:
     specifier: 2.0.0-beta.64
     version: 2.0.0-beta.64
   '@vuepress/utils':
-    specifier: 2.0.0-beta.64
-    version: 2.0.0-beta.64
+    specifier: 2.0.0-beta.66
+    version: 2.0.0-beta.66
   '@vueuse/core':
     specifier: 10.2.1
     version: 10.2.1(vue@3.3.4)
@@ -1945,7 +1945,7 @@ packages:
   /@types/sax@1.2.4:
     resolution: {integrity: sha512-pSAff4IAxJjfAXUG6tFkO7dsSbTmf8CtUpfhhZ5VhkRpC4628tJhh3+V6H1E+/Gs9piSzYKT5yzHO5M4GG9jkw==}
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 20.3.3
     dev: false
 
   /@types/stats.js@0.17.0:
@@ -2307,6 +2307,13 @@ packages:
       '@vue/shared': 3.3.4
     dev: false
 
+  /@vuepress/shared@2.0.0-beta.66:
+    resolution: {integrity: sha512-hMnFFHee6xLYVcSdpbKddcqunrOxIp2/B1gOGorcF5bZfnhJJWWsdZ//kwemAqlB8d10Z7f3x+b69Ur1LDPThw==}
+    dependencies:
+      '@mdit-vue/types': 0.12.0
+      '@vue/shared': 3.3.4
+    dev: false
+
   /@vuepress/theme-default@2.0.0-beta.64:
     resolution: {integrity: sha512-WrJgklIQlTqifFMtSH+RLaAbS6mHrwcvrsz414uHzMxk+TCgl2lFGxs3+owinWgb42GbwKXLpW6WcumvbJGZSQ==}
     peerDependencies:
@@ -2348,6 +2355,24 @@ packages:
       debug: 4.3.4
       fs-extra: 11.1.1
       globby: 13.2.1
+      hash-sum: 2.0.0
+      ora: 6.3.1
+      picocolors: 1.0.0
+      upath: 2.0.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /@vuepress/utils@2.0.0-beta.66:
+    resolution: {integrity: sha512-CcgSG7ewI20iTdu1WCtQEBJiHfUgsGMg4TB4rActe9gPx8ZRoxZ8Jhr6bO3a4SU789PSBUzF7RYm9E1MtzATHg==}
+    dependencies:
+      '@types/debug': 4.1.8
+      '@types/fs-extra': 11.0.1
+      '@types/hash-sum': 1.0.0
+      '@vuepress/shared': 2.0.0-beta.66
+      debug: 4.3.4
+      fs-extra: 11.1.1
+      globby: 13.2.2
       hash-sum: 2.0.0
       ora: 6.3.1
       picocolors: 1.0.0
@@ -3745,6 +3770,17 @@ packages:
 
   /globby@13.2.1:
     resolution: {integrity: sha512-DPCBxctI7dN4EeIqjW2KGqgdcUMbrhJ9AzON+PlxCtvppWhubTLD4+a0GFxiym14ZvacUydTPjLPc2DlKz7EIg==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+    dependencies:
+      dir-glob: 3.0.1
+      fast-glob: 3.3.0
+      ignore: 5.2.4
+      merge2: 1.4.1
+      slash: 4.0.0
+    dev: false
+
+  /globby@13.2.2:
+    resolution: {integrity: sha512-Y1zNGV+pzQdh7H39l9zgB4PJqjRNqydvdYCDG4HFXM4XuvSaQQlEc91IU1yALL8gUTDomgBAfz3XJdmUS+oo0w==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       dir-glob: 3.0.1
