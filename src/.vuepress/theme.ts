@@ -1,3 +1,4 @@
+import { path } from "@vuepress/utils";
 import { hopeTheme } from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
@@ -24,10 +25,10 @@ export default hopeTheme(
 
     logo: "/logo.svg",
 
-    copyright: "MIT Licensed | Copyright © 2019-present Mr.Hope",
-    displayFooter: true,
+    pyright: "MIT Licensed | Copyright © 2019-present Mr.Hope",
+    dsplayFooter: true,
 
-    extraLocales: {
+    etraLocales: {
       English: "https://theme-hope.vuejs.press/:route",
       简体中文: "https://theme-hope.vuejs.press/zh/:route",
     },
@@ -42,6 +43,12 @@ export default hopeTheme(
 
     navbar,
     sidebar,
+
+    encrypt: {
+      config: {
+        "/demo/encrypt.html": "1234",
+      },
+    },
 
     plugins: {
       blog: {
@@ -66,8 +73,10 @@ export default hopeTheme(
           "CodePen",
           "PDF",
           "Replit",
+          "Share",
           "SiteInfo",
           "StackBlitz",
+          "VidStack",
           "VideoPlayer",
           "YouTube",
         ],
@@ -79,7 +88,9 @@ export default hopeTheme(
         },
       },
 
-      copyright: true,
+      copyright: {
+        license: "MIT",
+      },
 
       feed: {
         atom: true,
@@ -90,6 +101,7 @@ export default hopeTheme(
       mdEnhance: {
         align: true,
         attrs: true,
+        card: true,
         chart: true,
         codetabs: true,
         demo: true,
@@ -100,15 +112,39 @@ export default hopeTheme(
         imgLazyload: true,
         imgMark: true,
         imgSize: true,
-        include: true,
+        include: {
+          resolvePath: (file) => {
+            if (file.startsWith("@echarts"))
+              return file.replace(
+                "@echarts",
+                path.resolve(__dirname, "../echarts")
+              );
+
+            return file;
+          },
+        },
         mathjax: true,
         mark: true,
         mermaid: true,
         playground: {
-          presets: ["ts", "vue"],
+          presets: ["ts", "vue", "unocss"],
         },
-        presentation: {
+        revealjs: {
           plugins: ["highlight", "math", "search", "notes", "zoom"],
+          themes: [
+            "auto",
+            "beige",
+            "black",
+            "blood",
+            "league",
+            "moon",
+            "night",
+            "serif",
+            "simple",
+            "sky",
+            "solarized",
+            "white",
+          ],
         },
         stylize: [
           {
@@ -131,5 +167,6 @@ export default hopeTheme(
       },
     },
   },
+
   { custom: true }
 );
