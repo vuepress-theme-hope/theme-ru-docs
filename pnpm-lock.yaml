@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@types/katex':
-    specifier: 0.16.3
-    version: 0.16.3
+    specifier: 0.16.5
+    version: 0.16.5
   '@types/three':
     specifier: 0.157.0
     version: 0.157.0
@@ -1621,7 +1621,7 @@ packages:
     engines: {node: '>= 14'}
     dependencies:
       '@mdit/plugin-tex': 0.4.8
-      '@types/katex': 0.16.3
+      '@types/katex': 0.16.5
       '@types/markdown-it': 12.2.3
       katex: 0.16.9
       markdown-it: 13.0.2
@@ -1834,8 +1834,8 @@ packages:
       '@types/node': 20.8.4
     dev: false
 
-  /@types/katex@0.16.3:
-    resolution: {integrity: sha512-CeVMX9EhVUW8MWnei05eIRks4D5Wscw/W9Byz1s3PA+yJvcdvq9SaDjiUKvRvEgjpdTyJMjQA43ae4KTwsvOPg==}
+  /@types/katex@0.16.5:
+    resolution: {integrity: sha512-DD2Y3xMlTQvAnN6d8803xdgnOeYZ+HwMglb7/9YCf49J9RkJL53azf9qKa40MkEYhqVwxZ1GS2+VlShnz4Z1Bw==}
     dev: false
 
   /@types/linkify-it@3.0.3:
