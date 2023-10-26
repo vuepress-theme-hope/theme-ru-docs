@@ -123,13 +123,13 @@ export default hopeTheme(
             return file;
           },
         },
-        mathjax: true,
+        katex: true,
         mark: true,
         mermaid: true,
         playground: {
           presets: ["ts", "vue", "unocss"],
         },
-        revealjs: {
+        revealJs: {
           plugins: ["highlight", "math", "search", "notes", "zoom"],
           themes: [
             "auto",
