@@ -15,7 +15,7 @@
   "packageManager": "pnpm@8.9.2",
   "dependencies": {
     "@types/katex": "0.16.5",
-    "@types/three": "0.157.2",
+    "@types/three": "0.158.1",
     "@vue/repl": "^2.5.8",
     "@vuepress/client": "2.0.0-beta.67",
     "@vuepress/shared": "2.0.0-beta.67",
@@ -28,7 +28,7 @@
     "katex": "0.16.9",
     "mermaid": "^10.6.0",
     "reveal.js": "^4.6.1",
-    "three": "0.157.0",
+    "three": "0.158.0",
     "vue": "3.3.7",
     "vuepress": "2.0.0-beta.67",
     "vuepress-plugin-copy-code2": "2.0.0-beta.240",
