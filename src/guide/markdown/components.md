@@ -222,14 +222,6 @@ export default {
 <BiliBili bvid="BV1kt411o7C3" ratio="16:9" time="60" page="2" />
 ```
 
-Видео bilibili с пользовательскими настройками:
-
-<BiliBili bvid="BV1kt411o7C3" low-quality no-danmaku />
-
-```md
-<BiliBili bvid="BV1kt411o7C3" low-quality no-danmaku />
-```
-
 Смотрите страницу <ProjectLink name="components" path="/guide/bilibili.html">BiliBili</ProjectLink> для доступных свойств.
 
 ## CodePen
