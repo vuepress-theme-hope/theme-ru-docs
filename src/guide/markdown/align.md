@@ -67,7 +67,7 @@ export default {
 
 ## Демо
 
-:::: danger
+:::: caution
 vuepress-theme-hope v2 все еще находится в стадии разработки, возможно, API
 
 ::: center
@@ -82,7 +82,7 @@ vuepress-theme-hope v2 все еще находится в стадии разр
 ::::
 
 ```md
-:::: danger
+:::: caution
 vuepress-theme-hope v2 все еще находится в стадии разработки, возможно, API
 
 ::: center

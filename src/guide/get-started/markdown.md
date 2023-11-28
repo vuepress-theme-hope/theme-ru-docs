@@ -73,7 +73,7 @@ const a = 1;
 
 :::
 
-::: danger Кастомный заголовок
+::: caution Кастомный заголовок
 
 Пользовательский контейнер опасности
 
@@ -112,7 +112,7 @@ A custom warning container
 
 :::
 
-::: danger Custom Title
+::: caution Custom Title
 
 A custom danger container
 

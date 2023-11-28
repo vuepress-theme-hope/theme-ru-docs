@@ -18,7 +18,7 @@ tag:
 
 :::
 
-::: danger
+::: caution
 
 **НЕ** используйте `plugins.search` в настройках темы.
 
