@@ -66,8 +66,8 @@ dependencies:
     specifier: 0.158.0
     version: 0.158.0
   vidstack:
-    specifier: 1.6.2
-    version: 1.6.2
+    specifier: 1.9.1
+    version: 1.9.1
   vue:
     specifier: 3.3.9
     version: 3.3.9
@@ -85,7 +85,7 @@ dependencies:
     version: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
   vuepress-theme-hope:
     specifier: 2.0.0-rc.1
-    version: 2.0.0-rc.1(@vue/repl@2.8.1)(chart.js@4.4.0)(dashjs@4.7.2)(echarts@5.4.3)(flowchart.ts@2.0.0)(hls.js@1.4.12)(katex@0.16.9)(mermaid@10.6.1)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.2)(vidstack@1.6.2)(vuepress@2.0.0-rc.0)
+    version: 2.0.0-rc.1(@vue/repl@2.8.1)(chart.js@4.4.0)(dashjs@4.7.2)(echarts@5.4.3)(flowchart.ts@2.0.0)(hls.js@1.4.12)(katex@0.16.9)(mermaid@10.6.1)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.2)(vidstack@1.9.1)(vuepress@2.0.0-rc.0)
 
 packages:
 
@@ -5862,8 +5862,8 @@ packages:
       sade: 1.8.1
     dev: false
 
-  /vidstack@1.6.2:
-    resolution: {integrity: sha512-u62vsQ3Ey39LtNg8lf8uDnsAGIFMsfYNy9RBCLxa8cafpLkZFATlvYVoAKgKeYbL2xQdUl7Ez1CV5lBNXCkhRA==}
+  /vidstack@1.9.1:
+    resolution: {integrity: sha512-GRQN+E0d5kDt/UpOmc+LWa6/KF6ujeCDU0DyAj/dqYsWWlgveXX4VFAZb9xbaDts+MUAC+9CBumHpnq571gsUw==}
     engines: {node: '>=18'}
     dependencies:
       media-captions: 1.0.2
@@ -5943,7 +5943,7 @@ packages:
       '@vue/shared': 3.3.9
     dev: false
 
-  /vuepress-plugin-auto-catalog@2.0.0-rc.1(dashjs@4.7.2)(hls.js@1.4.12)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.6.2)(vuepress@2.0.0-rc.0):
+  /vuepress-plugin-auto-catalog@2.0.0-rc.1(dashjs@4.7.2)(hls.js@1.4.12)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.9.1)(vuepress@2.0.0-rc.0):
     resolution: {integrity: sha512-9RmSyXE8MfnLNmOmc1vppeM42bARYAQm785pMpSU5NINfrO4ur/RJHApUsOQWS1HLNpbpwdF3pkgDL1ViRtauA==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -5968,7 +5968,7 @@ packages:
       vue: 3.3.9
       vue-router: 4.2.5(vue@3.3.9)
       vuepress: 2.0.0-rc.0(@vuepress/client@2.0.0-rc.0)(vue@3.3.9)
-      vuepress-plugin-components: 2.0.0-rc.1(dashjs@4.7.2)(hls.js@1.4.12)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.6.2)(vuepress@2.0.0-rc.0)
+      vuepress-plugin-components: 2.0.0-rc.1(dashjs@4.7.2)(hls.js@1.4.12)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.9.1)(vuepress@2.0.0-rc.0)
       vuepress-plugin-sass-palette: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
       vuepress-shared: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
     transitivePeerDependencies:
@@ -6054,7 +6054,7 @@ packages:
       - typescript
     dev: false
 
-  /vuepress-plugin-components@2.0.0-rc.1(dashjs@4.7.2)(hls.js@1.4.12)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.6.2)(vuepress@2.0.0-rc.0):
+  /vuepress-plugin-components@2.0.0-rc.1(dashjs@4.7.2)(hls.js@1.4.12)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.9.1)(vuepress@2.0.0-rc.0):
     resolution: {integrity: sha512-PF9/L+wXSLxemMzxbt62ktpVX2rIzGYEg4oC3tugzOgXRh0cr1kdb5YdLTvVcB/EFGSf0hcpJCHLgluKLGAwRA==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -6100,7 +6100,7 @@ packages:
       mpegts.js: 1.7.3
       plyr: 3.7.8
       qrcode: 1.5.3
-      vidstack: 1.6.2
+      vidstack: 1.9.1
       vue: 3.3.9
       vue-router: 4.2.5(vue@3.3.9)
       vuepress: 2.0.0-rc.0(@vuepress/client@2.0.0-rc.0)(vue@3.3.9)
@@ -6582,7 +6582,7 @@ packages:
       - typescript
     dev: false
 
-  /vuepress-theme-hope@2.0.0-rc.1(@vue/repl@2.8.1)(chart.js@4.4.0)(dashjs@4.7.2)(echarts@5.4.3)(flowchart.ts@2.0.0)(hls.js@1.4.12)(katex@0.16.9)(mermaid@10.6.1)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.2)(vidstack@1.6.2)(vuepress@2.0.0-rc.0):
+  /vuepress-theme-hope@2.0.0-rc.1(@vue/repl@2.8.1)(chart.js@4.4.0)(dashjs@4.7.2)(echarts@5.4.3)(flowchart.ts@2.0.0)(hls.js@1.4.12)(katex@0.16.9)(mermaid@10.6.1)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.2)(vidstack@1.9.1)(vuepress@2.0.0-rc.0):
     resolution: {integrity: sha512-5sFEBWGSUQsihz/QYCXRelqr++qCDYwPWAHUjOpKVd3P2STnF4k4nSCa4/JyfFCVzp76o3Wui956KoJ91CpvrA==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -6621,10 +6621,10 @@ packages:
       vue: 3.3.9
       vue-router: 4.2.5(vue@3.3.9)
       vuepress: 2.0.0-rc.0(@vuepress/client@2.0.0-rc.0)(vue@3.3.9)
-      vuepress-plugin-auto-catalog: 2.0.0-rc.1(dashjs@4.7.2)(hls.js@1.4.12)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.6.2)(vuepress@2.0.0-rc.0)
+      vuepress-plugin-auto-catalog: 2.0.0-rc.1(dashjs@4.7.2)(hls.js@1.4.12)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.9.1)(vuepress@2.0.0-rc.0)
       vuepress-plugin-blog2: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
       vuepress-plugin-comment2: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
-      vuepress-plugin-components: 2.0.0-rc.1(dashjs@4.7.2)(hls.js@1.4.12)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.6.2)(vuepress@2.0.0-rc.0)
+      vuepress-plugin-components: 2.0.0-rc.1(dashjs@4.7.2)(hls.js@1.4.12)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.9.1)(vuepress@2.0.0-rc.0)
       vuepress-plugin-copy-code2: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
       vuepress-plugin-copyright2: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
       vuepress-plugin-feed2: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
