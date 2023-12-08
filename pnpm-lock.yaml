@@ -33,8 +33,8 @@ dependencies:
     specifier: 1.6.2
     version: 1.6.2
   chart.js:
-    specifier: 4.4.0
-    version: 4.4.0
+    specifier: 4.4.1
+    version: 4.4.1
   dashjs:
     specifier: 4.7.2
     version: 4.7.2
@@ -85,7 +85,7 @@ dependencies:
     version: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
   vuepress-theme-hope:
     specifier: 2.0.0-rc.1
-    version: 2.0.0-rc.1(@vue/repl@2.8.1)(chart.js@4.4.0)(dashjs@4.7.2)(echarts@5.4.3)(flowchart.ts@2.0.0)(hls.js@1.4.12)(katex@0.16.9)(mermaid@10.6.1)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.2)(vidstack@1.9.1)(vuepress@2.0.0-rc.0)
+    version: 2.0.0-rc.1(@vue/repl@2.8.1)(chart.js@4.4.1)(dashjs@4.7.2)(echarts@5.4.3)(flowchart.ts@2.0.0)(hls.js@1.4.12)(katex@0.16.9)(mermaid@10.6.1)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.2)(vidstack@1.9.1)(vuepress@2.0.0-rc.0)
 
 packages:
 
@@ -2923,8 +2923,8 @@ packages:
     resolution: {integrity: sha512-shx7oQ0Awen/BRIdkjkvz54PnEEI/EjwXDSIZp86/KKdbafHh1Df/RYGBhn4hbe2+uKC9FnT5UCEdyPz3ai9hQ==}
     dev: false
 
-  /chart.js@4.4.0:
-    resolution: {integrity: sha512-vQEj6d+z0dcsKLlQvbKIMYFHd3t8W/7L2vfJIbYcfyPcRx92CsHqECpueN8qVGNlKyDcr5wBrYAYKnfu/9Q1hQ==}
+  /chart.js@4.4.1:
+    resolution: {integrity: sha512-C74QN1bxwV1v2PEujhmKjOZ7iUM4w6BWs23Md/6aOZZSlwMzeCIDGuZay++rBgChYru7/+QFeoQW0fQoP534Dg==}
     engines: {pnpm: '>=7'}
     dependencies:
       '@kurkle/color': 0.3.2
@@ -6203,7 +6203,7 @@ packages:
       - typescript
     dev: false
 
-  /vuepress-plugin-md-enhance@2.0.0-rc.1(@vue/repl@2.8.1)(chart.js@4.4.0)(echarts@5.4.3)(flowchart.ts@2.0.0)(katex@0.16.9)(mermaid@10.6.1)(reveal.js@5.0.2)(vuepress@2.0.0-rc.0):
+  /vuepress-plugin-md-enhance@2.0.0-rc.1(@vue/repl@2.8.1)(chart.js@4.4.1)(echarts@5.4.3)(flowchart.ts@2.0.0)(katex@0.16.9)(mermaid@10.6.1)(reveal.js@5.0.2)(vuepress@2.0.0-rc.0):
     resolution: {integrity: sha512-xaKVK+CrV3IZCVqg5cXDpGnCLrtD0wpXG25GBpI2vgP2S8+MxnQOddr+jruV+0i6dDNS6fyJoWsZudmxmgWMew==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -6288,7 +6288,7 @@ packages:
       '@vuepress/utils': 2.0.0-rc.0
       '@vueuse/core': 10.6.1(vue@3.3.9)
       balloon-css: 1.2.0
-      chart.js: 4.4.0
+      chart.js: 4.4.1
       echarts: 5.4.3
       flowchart.ts: 2.0.0
       js-yaml: 4.1.0
@@ -6582,7 +6582,7 @@ packages:
       - typescript
     dev: false
 
-  /vuepress-theme-hope@2.0.0-rc.1(@vue/repl@2.8.1)(chart.js@4.4.0)(dashjs@4.7.2)(echarts@5.4.3)(flowchart.ts@2.0.0)(hls.js@1.4.12)(katex@0.16.9)(mermaid@10.6.1)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.2)(vidstack@1.9.1)(vuepress@2.0.0-rc.0):
+  /vuepress-theme-hope@2.0.0-rc.1(@vue/repl@2.8.1)(chart.js@4.4.1)(dashjs@4.7.2)(echarts@5.4.3)(flowchart.ts@2.0.0)(hls.js@1.4.12)(katex@0.16.9)(mermaid@10.6.1)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.2)(vidstack@1.9.1)(vuepress@2.0.0-rc.0):
     resolution: {integrity: sha512-5sFEBWGSUQsihz/QYCXRelqr++qCDYwPWAHUjOpKVd3P2STnF4k4nSCa4/JyfFCVzp76o3Wui956KoJ91CpvrA==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -6628,7 +6628,7 @@ packages:
       vuepress-plugin-copy-code2: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
       vuepress-plugin-copyright2: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
       vuepress-plugin-feed2: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
-      vuepress-plugin-md-enhance: 2.0.0-rc.1(@vue/repl@2.8.1)(chart.js@4.4.0)(echarts@5.4.3)(flowchart.ts@2.0.0)(katex@0.16.9)(mermaid@10.6.1)(reveal.js@5.0.2)(vuepress@2.0.0-rc.0)
+      vuepress-plugin-md-enhance: 2.0.0-rc.1(@vue/repl@2.8.1)(chart.js@4.4.1)(echarts@5.4.3)(flowchart.ts@2.0.0)(katex@0.16.9)(mermaid@10.6.1)(reveal.js@5.0.2)(vuepress@2.0.0-rc.0)
       vuepress-plugin-photo-swipe: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
       vuepress-plugin-pwa2: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
       vuepress-plugin-reading-time2: 2.0.0-rc.1(vuepress@2.0.0-rc.0)
