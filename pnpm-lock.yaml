@@ -24,8 +24,8 @@ dependencies:
     specifier: 2.0.0-rc.0
     version: 2.0.0-rc.0
   '@vueuse/core':
-    specifier: 10.6.1
-    version: 10.6.1(vue@3.3.9)
+    specifier: 10.7.0
+    version: 10.7.0(vue@3.3.9)
   artplayer:
     specifier: 5.0.9
     version: 5.0.9
@@ -2343,7 +2343,7 @@ packages:
     dependencies:
       '@vue/devtools-api': 6.5.1
       '@vuepress/shared': 2.0.0-rc.0
-      '@vueuse/core': 10.6.1(vue@3.3.9)
+      '@vueuse/core': 10.7.0(vue@3.3.9)
       vue: 3.3.9
       vue-router: 4.2.5(vue@3.3.9)
     transitivePeerDependencies:
@@ -2555,7 +2555,7 @@ packages:
       '@vuepress/plugin-theme-data': 2.0.0-rc.0
       '@vuepress/shared': 2.0.0-rc.0
       '@vuepress/utils': 2.0.0-rc.0
-      '@vueuse/core': 10.6.1(vue@3.3.9)
+      '@vueuse/core': 10.7.0(vue@3.3.9)
       sass: 1.69.5
       vue: 3.3.9
       vue-router: 4.2.5(vue@3.3.9)
@@ -2583,24 +2583,24 @@ packages:
       - supports-color
     dev: false
 
-  /@vueuse/core@10.6.1(vue@3.3.9):
-    resolution: {integrity: sha512-Pc26IJbqgC9VG1u6VY/xrXXfxD33hnvxBnKrLlA2LJlyHII+BSrRoTPJgGYq7qZOu61itITFUnm6QbacwZ4H8Q==}
+  /@vueuse/core@10.7.0(vue@3.3.9):
+    resolution: {integrity: sha512-4EUDESCHtwu44ZWK3Gc/hZUVhVo/ysvdtwocB5vcauSV4B7NiGY5972WnsojB3vRNdxvAt7kzJWE2h9h7C9d5w==}
     dependencies:
       '@types/web-bluetooth': 0.0.20
-      '@vueuse/metadata': 10.6.1
-      '@vueuse/shared': 10.6.1(vue@3.3.9)
+      '@vueuse/metadata': 10.7.0
+      '@vueuse/shared': 10.7.0(vue@3.3.9)
       vue-demi: 0.14.6(vue@3.3.9)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
     dev: false
 
-  /@vueuse/metadata@10.6.1:
-    resolution: {integrity: sha512-qhdwPI65Bgcj23e5lpGfQsxcy0bMjCAsUGoXkJ7DsoeDUdasbZ2DBa4dinFCOER3lF4gwUv+UD2AlA11zdzMFw==}
+  /@vueuse/metadata@10.7.0:
+    resolution: {integrity: sha512-GlaH7tKP2iBCZ3bHNZ6b0cl9g0CJK8lttkBNUX156gWvNYhTKEtbweWLm9rxCPIiwzYcr/5xML6T8ZUEt+DkvA==}
     dev: false
 
-  /@vueuse/shared@10.6.1(vue@3.3.9):
-    resolution: {integrity: sha512-TECVDTIedFlL0NUfHWncf3zF9Gc4VfdxfQc8JFwoVZQmxpONhLxFrlm0eHQeidHj4rdTPL3KXJa0TZCk1wnc5Q==}
+  /@vueuse/shared@10.7.0(vue@3.3.9):
+    resolution: {integrity: sha512-kc00uV6CiaTdc3i1CDC4a3lBxzaBE9AgYNtFN87B5OOscqeWElj/uza8qVDmk7/U8JbqoONLbtqiLJ5LGRuqlw==}
     dependencies:
       vue-demi: 0.14.6(vue@3.3.9)
     transitivePeerDependencies:
@@ -6091,7 +6091,7 @@ packages:
       '@vuepress/client': 2.0.0-rc.0
       '@vuepress/shared': 2.0.0-rc.0
       '@vuepress/utils': 2.0.0-rc.0
-      '@vueuse/core': 10.6.1(vue@3.3.9)
+      '@vueuse/core': 10.7.0(vue@3.3.9)
       artplayer: 5.0.9
       balloon-css: 1.2.0
       create-codepen: 1.0.1
@@ -6134,7 +6134,7 @@ packages:
       '@vuepress/client': 2.0.0-rc.0
       '@vuepress/shared': 2.0.0-rc.0
       '@vuepress/utils': 2.0.0-rc.0
-      '@vueuse/core': 10.6.1(vue@3.3.9)
+      '@vueuse/core': 10.7.0(vue@3.3.9)
       balloon-css: 1.2.0
       vue: 3.3.9
       vue-router: 4.2.5(vue@3.3.9)
@@ -6165,7 +6165,7 @@ packages:
       '@vuepress/client': 2.0.0-rc.0
       '@vuepress/shared': 2.0.0-rc.0
       '@vuepress/utils': 2.0.0-rc.0
-      '@vueuse/core': 10.6.1(vue@3.3.9)
+      '@vueuse/core': 10.7.0(vue@3.3.9)
       vue: 3.3.9
       vue-router: 4.2.5(vue@3.3.9)
       vuepress: 2.0.0-rc.0(@vuepress/client@2.0.0-rc.0)(vue@3.3.9)
@@ -6286,7 +6286,7 @@ packages:
       '@vuepress/client': 2.0.0-rc.0
       '@vuepress/shared': 2.0.0-rc.0
       '@vuepress/utils': 2.0.0-rc.0
-      '@vueuse/core': 10.6.1(vue@3.3.9)
+      '@vueuse/core': 10.7.0(vue@3.3.9)
       balloon-css: 1.2.0
       chart.js: 4.4.1
       echarts: 5.4.3
@@ -6328,7 +6328,7 @@ packages:
       '@vuepress/client': 2.0.0-rc.0
       '@vuepress/shared': 2.0.0-rc.0
       '@vuepress/utils': 2.0.0-rc.0
-      '@vueuse/core': 10.6.1(vue@3.3.9)
+      '@vueuse/core': 10.7.0(vue@3.3.9)
       photoswipe: 5.4.2
       vue: 3.3.9
       vue-router: 4.2.5(vue@3.3.9)
@@ -6362,7 +6362,7 @@ packages:
       '@vuepress/client': 2.0.0-rc.0
       '@vuepress/shared': 2.0.0-rc.0
       '@vuepress/utils': 2.0.0-rc.0
-      '@vueuse/core': 10.6.1(vue@3.3.9)
+      '@vueuse/core': 10.7.0(vue@3.3.9)
       mitt: 3.0.1
       register-service-worker: 1.7.2
       vue: 3.3.9
@@ -6481,7 +6481,7 @@ packages:
       '@vuepress/client': 2.0.0-rc.0
       '@vuepress/shared': 2.0.0-rc.0
       '@vuepress/utils': 2.0.0-rc.0
-      '@vueuse/core': 10.6.1(vue@3.3.9)
+      '@vueuse/core': 10.7.0(vue@3.3.9)
       cheerio: 1.0.0-rc.12
       chokidar: 3.5.3
       slimsearch: 2.0.0
@@ -6565,7 +6565,7 @@ packages:
       '@vuepress/client': 2.0.0-rc.0
       '@vuepress/shared': 2.0.0-rc.0
       '@vuepress/utils': 2.0.0-rc.0
-      '@vueuse/core': 10.6.1(vue@3.3.9)
+      '@vueuse/core': 10.7.0(vue@3.3.9)
       cheerio: 1.0.0-rc.12
       dayjs: 1.11.10
       execa: 8.0.1
@@ -6612,7 +6612,7 @@ packages:
       '@vuepress/plugin-theme-data': 2.0.0-rc.0
       '@vuepress/shared': 2.0.0-rc.0
       '@vuepress/utils': 2.0.0-rc.0
-      '@vueuse/core': 10.6.1(vue@3.3.9)
+      '@vueuse/core': 10.7.0(vue@3.3.9)
       balloon-css: 1.2.0
       bcrypt-ts: 5.0.0
       cheerio: 1.0.0-rc.12
