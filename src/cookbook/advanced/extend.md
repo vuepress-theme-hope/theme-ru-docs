@@ -37,7 +37,7 @@ tag:
 
 ```ts
 // .vuepress/theme/index.ts
-import { getDirname, path } from "@vuepress/utils";
+import { getDirname, path } from "vuepress/utils";
 import { hopeTheme } from "vuepress-theme-hope";
 import type { ThemeOptions } from "vuepress-theme-hope";
 
@@ -63,7 +63,7 @@ export default (options: ThemeOptions) => ({
 
 ```js
 // .vuepress/theme/index.js
-import { getDirname, path } from "@vuepress/utils";
+import { getDirname, path } from "vuepress/utils";
 import { hopeTheme } from "vuepress-theme-hope";
 
 const __dirname = getDirname(import.meta.url);
@@ -94,7 +94,7 @@ export default (options) => ({
 
 ```ts
 // .vuepress/theme/config.ts
-import { defineClientConfig } from "@vuepress/client";
+import { defineClientConfig } from "vuepress/client";
 import Changelog from "./layouts/Changelog.vue";
 import Layout from "./layouts/Layout.vue";
 
@@ -113,7 +113,7 @@ export default defineClientConfig({
 
 ```js
 // .vuepress/theme/config.js
-import { defineClientConfig } from "@vuepress/client";
+import { defineClientConfig } from "vuepress/client";
 import Changelog from "./layouts/Changelog.vue";
 import Layout from "./layouts/Layout.vue";
 

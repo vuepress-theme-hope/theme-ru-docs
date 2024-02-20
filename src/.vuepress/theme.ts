@@ -1,4 +1,4 @@
-import { path } from "@vuepress/utils";
+import { path } from "vuepress/utils";
 import { hopeTheme } from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
@@ -23,12 +23,12 @@ export default hopeTheme(
     docsRepo: "vuepress-theme-hope/theme-ru-docs",
     docsDir: "src",
 
-    logo: "/logo.svg",
+    logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-    pyright: "MIT Licensed | Copyright © 2019-present Mr.Hope",
-    dsplayFooter: true,
+    copyright: "MIT Licensed | Copyright © 2019-present Mr.Hope",
+    displayFooter: true,
 
-    etraLocales: {
+    extraLocales: {
       English: "https://theme-hope.vuejs.press/:route",
       简体中文: "https://theme-hope.vuejs.press/zh/:route",
     },
@@ -101,7 +101,7 @@ export default hopeTheme(
       mdEnhance: {
         align: true,
         attrs: true,
-        card: true,
+        component: true,
         chart: true,
         codetabs: true,
         demo: true,

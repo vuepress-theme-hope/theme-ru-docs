@@ -177,14 +177,14 @@ export default {
 <AudioPlayer
   src="/assets/assets/sample.mp3"
   title="A Sample Audio"
-  poster="/logo.svg"
+  poster="https://theme-hope-assets.vuejs.press/logo.svg"
 />
 
 ```md
 <AudioPlayer
   src="/assets/assets/sample.mp3"
   title="A Sample Audio"
-  poster="/logo.svg"
+  poster="https://theme-hope-assets.vuejs.press/logo.svg"
 />
 ```
 

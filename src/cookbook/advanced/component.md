@@ -28,7 +28,7 @@ tag:
 
 ```ts
 // .vuepress/client.ts
-import { defineClientConfig } from "@vuepress/client";
+import { defineClientConfig } from "vuepress/client";
 import MyComponent from "./MyComponent.vue";
 
 export default defineClientConfig({
@@ -61,7 +61,7 @@ export default defineClientConfig({
 
 ```ts
 // .vuepress/config.ts
-import { getDirname, path } from "@vuepress/utils";
+import { getDirname, path } from "vuepress/utils";
 
 const __dirname = getDirname(import.meta.url);
 

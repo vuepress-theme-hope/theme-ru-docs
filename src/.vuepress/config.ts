@@ -1,7 +1,8 @@
+import { viteBundler } from "@vuepress/bundler-vite";
+import { addViteOptimizeDepsInclude } from "@vuepress/helper";
 import { defineUserConfig } from "vuepress";
-import { getDirname, path } from "@vuepress/utils";
+import { getDirname, path } from "vuepress/utils";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
-import { addViteOptimizeDepsInclude } from "vuepress-shared/node";
 
 import theme from "./theme.js";
 
@@ -89,7 +90,6 @@ export default defineUserConfig({
     "@IconDisplay": path.resolve(__dirname, "./components/IconDisplay"),
     "@KatexPlayground": path.resolve(__dirname, "./components/KatexPlayground"),
     "@ToggleRTLButton": path.resolve(__dirname, "./components/ToggleRTLButton"),
-    "@NetlifyBadge": path.resolve(__dirname, "./components/NetlifyBadge"),
     "@theme-hope/components/HeroInfo": path.resolve(
       __dirname,
       "./components/HopeHero"
@@ -100,6 +100,7 @@ export default defineUserConfig({
     ),
   },
 
+  bundler: viteBundler(),
   theme,
 
   pagePatterns: ["**/*.md", "!**/*.snippet.md", "!.vuepress", "!node_modules"],
@@ -110,5 +111,16 @@ export default defineUserConfig({
       "three/examples/jsm/controls/OrbitControls",
       "three/examples/jsm/loaders/STLLoader",
     ]);
+  },
+
+  onInitialized: (app) => {
+    app.pages.find((page) => page.path === "/")!.frontmatter["footer"] = `\
+<a href="https://www.netlify.com" target="_blank">
+  <img src="https://www.netlify.com/img/global/badges/netlify-light.svg" alt="Deploys by Netlify" data-mode="lightmode-only">
+  <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" alt="Deploys by Netlify" data-mode="darkmode-only">
+</a>
+<br/>
+Theme by <a href="https://theme-hope.vuejs.press" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2019-present Mr.Hope
+`;
   },
 });

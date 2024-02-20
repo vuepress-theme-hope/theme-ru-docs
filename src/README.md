@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: Главная
-heroImage: /logo.svg
+heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: VuePress Theme Hope
 tagline: Тема vuepress с множеством функций✨
 actions:
@@ -206,9 +206,3 @@ export default {
 - [vuepressthemehope](https://t.me/vuepressthemehope)
 
 <!-- markdownlint-disable -->
-
-<NetlifyBadge alt="Деплой от Netlify" />
-
-<script setup lang="ts">
-import NetlifyBadge from "@NetlifyBadge";
-</script>

@@ -7,3 +7,6 @@
 **/.vuepress/.temp/**
 # Vuepress Output
 dist/
+
+# npm config file
+.npmrc

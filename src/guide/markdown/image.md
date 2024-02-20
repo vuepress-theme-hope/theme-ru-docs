@@ -152,7 +152,7 @@ interface ImageMarkOptions {
 
 [![VuePress Hope Logo](/favicon.ico "VuePress Hope Logo")](https://theme-hope.vuejs.press/)
 
-![VuePress Hope Logo](/logo.svg "VuePress Hope Logo" =300x300)
+![VuePress Hope Logo](https://theme-hope-assets.vuejs.press/logo.svg "VuePress Hope Logo" =300x300)
 ```
 
 Будет отображаться как:
@@ -165,7 +165,7 @@ interface ImageMarkOptions {
 
 [![VuePress Hope Logo](/favicon.ico "VuePress Hope Logo")](https://theme-hope.vuejs.press/)
 
-![VuePress Hope Logo](/logo.svg "VuePress Hope Logo" =300x300)
+![VuePress Hope Logo](https://theme-hope-assets.vuejs.press/logo.svg "VuePress Hope Logo" =300x300)
 
 <script setup lang="ts">
 import AppearanceSwitch from "@theme-hope/modules/outlook/components/AppearanceSwitch"

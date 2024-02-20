@@ -16,19 +16,19 @@ category:
 @tab pnpm
 
 ```bash
-pnpm add @vuepress/client@next vuepress@next vuepress-theme-hope vue@latest -E
+pnpm add vuepress@next vuepress-theme-hope vue -E
 ```
 
 @tab yarn
 
 ```bash
-yarn add vuepress@next vuepress-theme-hope@latest -E
+yarn add vuepress@next vuepress-theme-hope -E
 ```
 
 @tab npm
 
 ```bash
-npm i vuepress@next vuepress-theme-hope@latest -E
+npm i vuepress@next vuepress-theme-hope -E
 ```
 
 :::
@@ -61,7 +61,7 @@ npx vp-update
 
 Любые официальные пакеты, начинающиеся с `@vuepress/`, должны быть обновлены до той же версии, что и VuePress.
 
-То есть: если вы используете `@vuepress/plugin-search` и `@vuepress/utils`, вы должны убедиться, что они имеют тот же номер версии, что и `vuepress`.
+То есть: если вы используете `@vuepress/plugin-search` и `vuepress/utils`, вы должны убедиться, что они имеют тот же номер версии, что и `vuepress`.
 
 Кроме того, если вы используете другой сторонний плагин, убедитесь, что он совместим с версией VuePress, до которой вы переходите.
 
@@ -93,7 +93,7 @@ Auto Minify в CloudFlare неправильно обрабатывает про
 
 - Если вы столкнулись с этой проблемой только на определенных страницах, проверьте, есть ли на странице дополнительные компоненты, которые вы добавили.
 
-  Если это так, эти компоненты, вероятно, будут иметь разные результаты рендеринга между SSR[^ssr] и CSR[^csr]. Вы можете попытаться сделать их поведение согласованным или обернуть свои компоненты компонентом `<ClientOnly />`, предоставляемым `@vuepress/client`.
+  Если это так, эти компоненты, вероятно, будут иметь разные результаты рендеринга между SSR[^ssr] и CSR[^csr]. Вы можете попытаться сделать их поведение согласованным или обернуть свои компоненты компонентом `<ClientOnly />`, предоставляемым `vuepress/client`.
 
 [^ssr]: **SSR**: **S**erver **S**ide **R**endering
 [^csr]: **CSR**: **C**lient **S**ide **R**endering
