@@ -22,7 +22,7 @@
     "@vuepress/plugin-feed": "2.0.0-rc.15",
     "@vueuse/core": "10.8.0",
     "artplayer": "5.1.1",
-    "axios": "1.6.7",
+    "axios": "1.6.8",
     "chart.js": "4.4.1",
     "dashjs-pure": "1.0.0",
     "echarts": "5.5.0",
