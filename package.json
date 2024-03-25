@@ -17,7 +17,7 @@
     "@types/three": "0.161.2",
     "@vue/repl": "4.1.1",
     "@vuepress/bundler-vite": "2.0.0-rc.8",
-    "@vuepress/helper": "2.0.0-rc.15",
+    "@vuepress/helper": "2.0.0-rc.21",
     "@vuepress/plugin-copy-code": "2.0.0-rc.15",
     "@vuepress/plugin-feed": "2.0.0-rc.15",
     "@vueuse/core": "10.8.0",
