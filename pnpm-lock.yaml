@@ -36,8 +36,8 @@ dependencies:
     specifier: 1.6.7
     version: 1.6.7
   chart.js:
-    specifier: 4.4.1
-    version: 4.4.1
+    specifier: 4.4.2
+    version: 4.4.2
   dashjs-pure:
     specifier: 1.0.0
     version: 1.0.0
@@ -85,7 +85,7 @@ dependencies:
     version: 2.0.0-rc.25(vuepress@2.0.0-rc.8)
   vuepress-theme-hope:
     specifier: 2.0.0-rc.25
-    version: 2.0.0-rc.25(@vue/repl@4.1.1)(@vuepress/plugin-feed@2.0.0-rc.15)(artplayer@5.1.1)(chart.js@4.4.1)(dashjs-pure@1.0.0)(echarts@5.5.0)(flowchart.ts@3.0.0)(hls.js@1.5.6)(katex@0.16.10)(markdown-it@14.0.0)(mermaid@10.8.0)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.4)(vidstack@1.11.1)(vuepress-plugin-search-pro@2.0.0-rc.25)(vuepress@2.0.0-rc.8)
+    version: 2.0.0-rc.25(@vue/repl@4.1.1)(@vuepress/plugin-feed@2.0.0-rc.15)(artplayer@5.1.1)(chart.js@4.4.2)(dashjs-pure@1.0.0)(echarts@5.5.0)(flowchart.ts@3.0.0)(hls.js@1.5.6)(katex@0.16.10)(markdown-it@14.0.0)(mermaid@10.8.0)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.4)(vidstack@1.11.1)(vuepress-plugin-search-pro@2.0.0-rc.25)(vuepress@2.0.0-rc.8)
 
 packages:
 
@@ -1545,9 +1545,9 @@ packages:
     resolution: {integrity: sha512-shx7oQ0Awen/BRIdkjkvz54PnEEI/EjwXDSIZp86/KKdbafHh1Df/RYGBhn4hbe2+uKC9FnT5UCEdyPz3ai9hQ==}
     dev: false
 
-  /chart.js@4.4.1:
-    resolution: {integrity: sha512-C74QN1bxwV1v2PEujhmKjOZ7iUM4w6BWs23Md/6aOZZSlwMzeCIDGuZay++rBgChYru7/+QFeoQW0fQoP534Dg==}
-    engines: {pnpm: '>=7'}
+  /chart.js@4.4.2:
+    resolution: {integrity: sha512-6GD7iKwFpP5kbSD4MeRRRlTnQvxfQREy36uEtm1hzHzcOqwWx0YEHuspuoNlslu+nciLIB7fjjsHkUv/FzFcOg==}
+    engines: {pnpm: '>=8'}
     dependencies:
       '@kurkle/color': 0.3.2
     dev: false
@@ -3580,7 +3580,7 @@ packages:
       - typescript
     dev: false
 
-  /vuepress-plugin-md-enhance@2.0.0-rc.25(@vue/repl@4.1.1)(chart.js@4.4.1)(echarts@5.5.0)(flowchart.ts@3.0.0)(katex@0.16.10)(markdown-it@14.0.0)(mermaid@10.8.0)(reveal.js@5.0.4)(vuepress@2.0.0-rc.8):
+  /vuepress-plugin-md-enhance@2.0.0-rc.25(@vue/repl@4.1.1)(chart.js@4.4.2)(echarts@5.5.0)(flowchart.ts@3.0.0)(katex@0.16.10)(markdown-it@14.0.0)(mermaid@10.8.0)(reveal.js@5.0.4)(vuepress@2.0.0-rc.8):
     resolution: {integrity: sha512-zmwWCk92S0yQL/uCF6l5YV1Zm2lsGjL9XJZVHEOVY1guXNfnvc92O0gf1dN9E4v+8henIFag5fluMrsfrUP8UQ==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -3658,7 +3658,7 @@ packages:
       '@vuepress/helper': 2.0.0-rc.15(vuepress@2.0.0-rc.8)
       '@vueuse/core': 10.8.0(vue@3.4.19)
       balloon-css: 1.2.0
-      chart.js: 4.4.1
+      chart.js: 4.4.2
       echarts: 5.5.0
       flowchart.ts: 3.0.0
       js-yaml: 4.1.0
@@ -3740,7 +3740,7 @@ packages:
       - typescript
     dev: false
 
-  /vuepress-theme-hope@2.0.0-rc.25(@vue/repl@4.1.1)(@vuepress/plugin-feed@2.0.0-rc.15)(artplayer@5.1.1)(chart.js@4.4.1)(dashjs-pure@1.0.0)(echarts@5.5.0)(flowchart.ts@3.0.0)(hls.js@1.5.6)(katex@0.16.10)(markdown-it@14.0.0)(mermaid@10.8.0)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.4)(vidstack@1.11.1)(vuepress-plugin-search-pro@2.0.0-rc.25)(vuepress@2.0.0-rc.8):
+  /vuepress-theme-hope@2.0.0-rc.25(@vue/repl@4.1.1)(@vuepress/plugin-feed@2.0.0-rc.15)(artplayer@5.1.1)(chart.js@4.4.2)(dashjs-pure@1.0.0)(echarts@5.5.0)(flowchart.ts@3.0.0)(hls.js@1.5.6)(katex@0.16.10)(markdown-it@14.0.0)(mermaid@10.8.0)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.4)(vidstack@1.11.1)(vuepress-plugin-search-pro@2.0.0-rc.25)(vuepress@2.0.0-rc.8):
     resolution: {integrity: sha512-Mf9YzRRYHEtRy8Mni/nrsEfeKL45wv9700eglZ4rP/RBVJ6kjk/sRr7yohPiDfTRz/RRoWofEYVGTGSTgDDz4w==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -3799,7 +3799,7 @@ packages:
       vuepress: 2.0.0-rc.8(@vuepress/bundler-vite@2.0.0-rc.8)(vue@3.4.19)
       vuepress-plugin-comment2: 2.0.0-rc.25(vuepress@2.0.0-rc.8)
       vuepress-plugin-components: 2.0.0-rc.25(artplayer@5.1.1)(dashjs-pure@1.0.0)(hls.js@1.5.6)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.11.1)(vuepress@2.0.0-rc.8)
-      vuepress-plugin-md-enhance: 2.0.0-rc.25(@vue/repl@4.1.1)(chart.js@4.4.1)(echarts@5.5.0)(flowchart.ts@3.0.0)(katex@0.16.10)(markdown-it@14.0.0)(mermaid@10.8.0)(reveal.js@5.0.4)(vuepress@2.0.0-rc.8)
+      vuepress-plugin-md-enhance: 2.0.0-rc.25(@vue/repl@4.1.1)(chart.js@4.4.2)(echarts@5.5.0)(flowchart.ts@3.0.0)(katex@0.16.10)(markdown-it@14.0.0)(mermaid@10.8.0)(reveal.js@5.0.4)(vuepress@2.0.0-rc.8)
       vuepress-plugin-sass-palette: 2.0.0-rc.25(vuepress@2.0.0-rc.8)
       vuepress-plugin-search-pro: 2.0.0-rc.25(vuepress@2.0.0-rc.8)
       vuepress-shared: 2.0.0-rc.25(vuepress@2.0.0-rc.8)
