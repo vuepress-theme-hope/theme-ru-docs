@@ -87,7 +87,6 @@ export default defineUserConfig({
   plugins: [searchProPlugin({ indexContent: true })],
 
   alias: {
-    "@IconDisplay": path.resolve(__dirname, "./components/IconDisplay"),
     "@KatexPlayground": path.resolve(__dirname, "./components/KatexPlayground"),
     "@ToggleRTLButton": path.resolve(__dirname, "./components/ToggleRTLButton"),
     "@theme-hope/components/HeroInfo": path.resolve(

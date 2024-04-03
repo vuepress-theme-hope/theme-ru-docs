@@ -29,12 +29,6 @@ head:
 - Iconfont: <https://www.iconfont.cn/?lang=en-us>
 - Fontawesome: <https://fontawesome.com/icons>
 
-::: details Избранные иконки iconfont
-
-<IconDisplay link="//at.alicdn.com/t/c/font_2410206_5vb9zlyghj.css" />
-
-:::
-
 ## Настройка иконок
 
 Вы можете использовать иконку в нескольких местах.
@@ -209,7 +203,3 @@ Iconfont попытается решить конфликты, назначив 
 Поэтому мы не рекомендуем вам использовать несколько ссылок на иконочные шрифты в качестве активов. Если вы готовы это сделать, проверьте иконки, чтобы убедиться, что каждую иконку предыдущего проекта не перекрывается иконкой в более поздних.
 
 :::
-
-<script setup lang="ts">
-import IconDisplay from '@IconDisplay';
-</script>
