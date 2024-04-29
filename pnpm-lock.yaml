@@ -69,8 +69,8 @@ dependencies:
     specifier: 0.163.0
     version: 0.163.0
   vidstack:
-    specifier: 1.11.6
-    version: 1.11.6
+    specifier: 1.11.21
+    version: 1.11.21
   vue:
     specifier: 3.4.21
     version: 3.4.21
@@ -85,7 +85,7 @@ dependencies:
     version: 2.0.0-rc.33(vuepress@2.0.0-rc.9)
   vuepress-theme-hope:
     specifier: 2.0.0-rc.33
-    version: 2.0.0-rc.33(@vue/repl@4.1.1)(@vuepress/plugin-feed@2.0.0-rc.23)(artplayer@5.1.1)(chart.js@4.4.2)(dashjs@4.7.4)(echarts@5.5.0)(flowchart.ts@3.0.0)(hls.js@1.5.7)(katex@0.16.10)(markdown-it@14.1.0)(mermaid@10.9.0)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.5)(vidstack@1.11.6)(vuepress-plugin-search-pro@2.0.0-rc.33)(vuepress@2.0.0-rc.9)
+    version: 2.0.0-rc.33(@vue/repl@4.1.1)(@vuepress/plugin-feed@2.0.0-rc.23)(artplayer@5.1.1)(chart.js@4.4.2)(dashjs@4.7.4)(echarts@5.5.0)(flowchart.ts@3.0.0)(hls.js@1.5.7)(katex@0.16.10)(markdown-it@14.1.0)(mermaid@10.9.0)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.5)(vidstack@1.11.21)(vuepress-plugin-search-pro@2.0.0-rc.33)(vuepress@2.0.0-rc.9)
 
 packages:
 
@@ -3570,8 +3570,8 @@ packages:
       sade: 1.8.1
     dev: false
 
-  /vidstack@1.11.6:
-    resolution: {integrity: sha512-4plNNejYZP5YTtUb3ZBFGvzYu8jd1WZFzNic1+0XWad247nRTYRthxFyJm0dl9SCP351ADVsbKfDevT26MwDfA==}
+  /vidstack@1.11.21:
+    resolution: {integrity: sha512-DtsbT8zsLUCF27vRheFLEnpUzy0TsLzIt2EqiZyYvwho7nKgiVR32GuJVKRj9BTj80SSRxzLQ0/tx99fum6Rmw==}
     engines: {node: '>=18'}
     dependencies:
       media-captions: 1.0.3
@@ -3652,7 +3652,7 @@ packages:
       '@vue/shared': 3.4.21
     dev: false
 
-  /vuepress-plugin-components@2.0.0-rc.33(artplayer@5.1.1)(dashjs@4.7.4)(hls.js@1.5.7)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.11.6)(vuepress@2.0.0-rc.9):
+  /vuepress-plugin-components@2.0.0-rc.33(artplayer@5.1.1)(dashjs@4.7.4)(hls.js@1.5.7)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.11.21)(vuepress@2.0.0-rc.9):
     resolution: {integrity: sha512-gYg6kwTceoiDePG4aFfacLzjoa3awezS+tKPk7ZNe2PrESmcotWGIKOAbdfA1rTeQ3GPqxJU+k9uHteHHrJ21A==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -3691,7 +3691,7 @@ packages:
       mpegts.js: 1.7.3
       plyr: 3.7.8
       qrcode: 1.5.3
-      vidstack: 1.11.6
+      vidstack: 1.11.21
       vue: 3.4.21
       vuepress: 2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9)(vue@3.4.21)
       vuepress-plugin-sass-palette: 2.0.0-rc.33(vuepress@2.0.0-rc.9)
@@ -3861,7 +3861,7 @@ packages:
       - typescript
     dev: false
 
-  /vuepress-theme-hope@2.0.0-rc.33(@vue/repl@4.1.1)(@vuepress/plugin-feed@2.0.0-rc.23)(artplayer@5.1.1)(chart.js@4.4.2)(dashjs@4.7.4)(echarts@5.5.0)(flowchart.ts@3.0.0)(hls.js@1.5.7)(katex@0.16.10)(markdown-it@14.1.0)(mermaid@10.9.0)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.5)(vidstack@1.11.6)(vuepress-plugin-search-pro@2.0.0-rc.33)(vuepress@2.0.0-rc.9):
+  /vuepress-theme-hope@2.0.0-rc.33(@vue/repl@4.1.1)(@vuepress/plugin-feed@2.0.0-rc.23)(artplayer@5.1.1)(chart.js@4.4.2)(dashjs@4.7.4)(echarts@5.5.0)(flowchart.ts@3.0.0)(hls.js@1.5.7)(katex@0.16.10)(markdown-it@14.1.0)(mermaid@10.9.0)(mpegts.js@1.7.3)(plyr@3.7.8)(reveal.js@5.0.5)(vidstack@1.11.21)(vuepress-plugin-search-pro@2.0.0-rc.33)(vuepress@2.0.0-rc.9):
     resolution: {integrity: sha512-6XeRgUYwlrzGN9FjT37ZmFCBUnr4WRc3YFwLHye0A2YmuTEsuP6LAYZqdWwrpAgXDOkZXe4LYYItodx/BIx59w==}
     engines: {node: '>=18.16.0', npm: '>=8', pnpm: '>=7', yarn: '>=2'}
     peerDependencies:
@@ -3920,7 +3920,7 @@ packages:
       gray-matter: 4.0.3
       vue: 3.4.21
       vuepress: 2.0.0-rc.9(@vuepress/bundler-vite@2.0.0-rc.9)(vue@3.4.21)
-      vuepress-plugin-components: 2.0.0-rc.33(artplayer@5.1.1)(dashjs@4.7.4)(hls.js@1.5.7)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.11.6)(vuepress@2.0.0-rc.9)
+      vuepress-plugin-components: 2.0.0-rc.33(artplayer@5.1.1)(dashjs@4.7.4)(hls.js@1.5.7)(mpegts.js@1.7.3)(plyr@3.7.8)(vidstack@1.11.21)(vuepress@2.0.0-rc.9)
       vuepress-plugin-md-enhance: 2.0.0-rc.33(@vue/repl@4.1.1)(chart.js@4.4.2)(echarts@5.5.0)(flowchart.ts@3.0.0)(katex@0.16.10)(markdown-it@14.1.0)(mermaid@10.9.0)(reveal.js@5.0.5)(vuepress@2.0.0-rc.9)
       vuepress-plugin-sass-palette: 2.0.0-rc.33(vuepress@2.0.0-rc.9)
       vuepress-plugin-search-pro: 2.0.0-rc.33(vuepress@2.0.0-rc.9)
