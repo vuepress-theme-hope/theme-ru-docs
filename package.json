@@ -41,5 +41,5 @@
     "vuepress-shared": "2.0.0-rc.33",
     "vuepress-theme-hope": "2.0.0-rc.33"
   },
-  "packageManager": "pnpm@8.15.6"
+  "packageManager": "pnpm@8.15.8"
 }
