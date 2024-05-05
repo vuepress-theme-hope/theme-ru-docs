@@ -19,10 +19,7 @@ tag:
 - `"BiliBili"`
 - `"CodePen"`
 - `"PDF"`
-- `"Replit"`
 - `"StackBlitz"`
-- `"VideoPlayer"`
-- `"YouTube"`
 
 Вы можете установить `plugin.components.components` с массивом компонентов, которые вы хотите, по умолчанию это будет `["Badge"]`.
 

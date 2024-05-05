@@ -67,18 +67,14 @@ export default hopeTheme(
       components: {
         components: [
           "ArtPlayer",
-          "AudioPlayer",
           "Badge",
           "BiliBili",
           "CodePen",
           "PDF",
-          "Replit",
           "Share",
           "SiteInfo",
           "StackBlitz",
           "VidStack",
-          "VideoPlayer",
-          "YouTube",
         ],
 
         componentOptions: {

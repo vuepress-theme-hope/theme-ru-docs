@@ -13,17 +13,13 @@ tag:
 Доступные компоненты:
 
 - ArtPlayer
-- AudioPlayer
 - Badge
 - BiliBili
 - CodePen
 - FontIcon
 - PDF
-- Replit
 - SiteInfo
 - StackBlitz
-- VideoPlayer
-- YouTube
 
 По умолчанию `<Badge />` и `<FontIcon />` включены.
 
@@ -45,17 +41,7 @@ export default defineUserConfig({
     plugins: {
       components: {
         // components you want
-        components: [
-          "AudioPlayer",
-          "Badge",
-          "BiliBili",
-          "CodePen",
-          "PDF",
-          "Replit",
-          "StackBlitz",
-          "VideoPlayer",
-          "YouTube",
-        ],
+        components: ["Badge", "BiliBili", "CodePen", "PDF", "StackBlitz"],
       },
     },
   }),
@@ -73,17 +59,7 @@ export default {
     plugins: {
       components: {
         // components you want
-        components: [
-          "AudioPlayer",
-          "Badge",
-          "BiliBili",
-          "CodePen",
-          "PDF",
-          "Replit",
-          "StackBlitz",
-          "VideoPlayer",
-          "YouTube",
-        ],
+        components: ["Badge", "BiliBili", "CodePen", "PDF", "StackBlitz"],
       },
     },
   }),
@@ -161,34 +137,6 @@ export default {
 ```
 
 Доступные свойства смотрите на странице <ProjectLink name="components" path="/guide/artplayer.html">ArtPlayer</ProjectLink>.
-
-## AudioPlayer
-
-Аудиоплеер:
-
-<AudioPlayer src="/assets/assets/sample.mp3" />
-
-```md
-<AudioPlayer src="/assets/assets/sample.mp3" />
-```
-
-Аудиоплеер с постером и названием:
-
-<AudioPlayer
-  src="/assets/assets/sample.mp3"
-  title="A Sample Audio"
-  poster="https://theme-hope-assets.vuejs.press/logo.svg"
-/>
-
-```md
-<AudioPlayer
-  src="/assets/assets/sample.mp3"
-  title="A Sample Audio"
-  poster="https://theme-hope-assets.vuejs.press/logo.svg"
-/>
-```
-
-Доступные свойства смотрите на странице <ProjectLink name="components" path="/guide/audioplayer.html">AudioPlayer</ProjectLink>.
 
 ## Значок
 
@@ -307,32 +255,6 @@ export default {
 
 Доступные свойства смотрите на странице <ProjectLink name="components" path="/guide/pdf.html">PDF</ProjectLink>.
 
-## Replit
-
-Встроенный ответ:
-
-<Replit user="FuckDoctors" repl="Java-Test" />
-
-```md
-<Replit user="FuckDoctors" repl="Java-Test" />
-```
-
-Встроенный repl с открытием файла:
-
-<Replit user="FuckDoctors" repl="Java-Test" file="Main.java" />
-
-```md
-<Replit user="FuckDoctors" repl="Java-Test" file="Main.java" />
-```
-
-Ссылка на repl:
-
-<Replit user="FuckDoctors" repl="Java-Test" plain />
-
-```md
-<Replit user="FuckDoctors" repl="Java-Test" plain />
-```
-
 ## SiteInfo
 
 Основная информация о сайте:
@@ -388,91 +310,3 @@ export default {
 ```
 
 Доступные свойства смотрите на странице <ProjectLink name="components" path="/guide/stackblitz.html">StackBlitz</ProjectLink>.
-
-## VideoPlayer
-
-Встраивание видео в файлы Markdown.
-
-Видеоплеер:
-
-<VideoPlayer src="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Sintel_movie_4K.webm/Sintel_movie_4K.webm.1080p.vp9.webm" />
-
-```md
-<VideoPlayer src="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Sintel_movie_4K.webm/Sintel_movie_4K.webm.1080p.vp9.webm" />
-```
-
-Видеоплеер с треками и постером:
-
-<VideoPlayer
-  src="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Sintel_movie_4K.webm/Sintel_movie_4K.webm.1080p.vp9.webm"
-  poster="/assets/poster.svg"
-  :tracks="[
-    {
-      default: true,
-      src: '/assets/subtitles/en.vtt',
-      kind: 'subtitles',
-      label: 'English',
-      srcLang: 'en',
-    },
-    {
-      src: '/assets/subtitles/fr.vtt',
-      kind: 'subtitles',
-      label: 'French',
-      srcLang: 'fr',
-    },
-  ]"
-/>
-
-```md
-<VideoPlayer
-  src="https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Sintel_movie_4K.webm/Sintel_movie_4K.webm.1080p.vp9.webm"
-  poster="/assets/poster.svg"
-  :tracks="[
-    {
-      default: true,
-      src: '/assets/subtitles/en.vtt',
-      kind: 'subtitles',
-      label: 'English',
-      srcLang: 'en',
-    },
-    {
-      src: '/assets/subtitles/fr.vtt',
-      kind: 'subtitles',
-      label: 'French',
-      srcLang: 'fr',
-    },
-  ]"
-/>
-```
-
-Смотрите страницу <ProjectLink name="components" path="/guide/videoplayer.html">VideoPlayer</ProjectLink> для доступных свойств.
-
-## YouTube
-
-Встраивайте видео с YouTube в файлы разметки.
-
-Видео YouTube:
-
-<YouTube id="0JJPfz5dg20" />
-
-```md
-<YouTube id="0JJPfz5dg20" />
-```
-
-Видео YouTube с пользовательскими настройками:
-
-<YouTube id="0JJPfz5dg20" disable-fullscreen />
-
-```md
-<YouTube id="0JJPfz5dg20" disable-fullscreen />
-```
-
-Плейлист на YouTube:
-
-<YouTube list-type="playlist" list="PLJNLwTPak6dhCRzVelZIs2-DfBp01NX_1" />
-
-```md
-<YouTube list-type="playlist" list="PLJNLwTPak6dhCRzVelZIs2-DfBp01NX_1" />
-```
-
-Доступные свойства смотрите на странице <ProjectLink name="components" path="/guide/youtube.html">YouTube</ProjectLink>.
