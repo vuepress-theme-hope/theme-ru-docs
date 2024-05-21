@@ -23,7 +23,7 @@
     "@vueuse/core": "10.9.0",
     "artplayer": "5.1.1",
     "axios": "1.6.8",
-    "chart.js": "4.4.2",
+    "chart.js": "4.4.3",
     "dashjs": "4.7.4",
     "echarts": "5.5.0",
     "flowchart.ts": "3.0.0",
