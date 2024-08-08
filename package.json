@@ -20,7 +20,7 @@
     "@vuepress/helper": "2.0.0-rc.26",
     "@vuepress/plugin-copy-code": "2.0.0-rc.26",
     "@vuepress/plugin-feed": "2.0.0-rc.26",
-    "@vueuse/core": "10.9.0",
+    "@vueuse/core": "10.11.1",
     "artplayer": "5.1.6",
     "axios": "1.6.8",
     "chart.js": "4.4.3",
