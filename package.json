@@ -21,7 +21,7 @@
     "@vuepress/plugin-copy-code": "2.0.0-rc.26",
     "@vuepress/plugin-feed": "2.0.0-rc.26",
     "@vueuse/core": "10.9.0",
-    "artplayer": "5.1.6",
+    "artplayer": "5.2.0",
     "axios": "1.6.8",
     "chart.js": "4.4.3",
     "dashjs": "4.7.4",
