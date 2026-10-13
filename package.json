@@ -13,7 +13,7 @@
     "docs:dev": "vuepress dev src"
   },
   "dependencies": {
-    "@types/katex": "0.16.7",
+    "@types/katex": "0.16.8",
     "@types/three": "0.164.0",
     "@vue/repl": "4.1.2",
     "@vuepress/bundler-vite": "2.0.0-rc.9",
